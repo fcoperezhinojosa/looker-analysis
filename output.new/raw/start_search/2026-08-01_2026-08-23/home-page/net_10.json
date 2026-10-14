@@ -1,0 +1,178 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_uxjhiuov4d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            7371
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "e549b178-13210396-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=e549b178-13210396-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_uxjhiuov4d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            12398
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "357a17dd-13210397-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=357a17dd-13210397-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     }
+    ],
+    "dataTimestamp": "1787824863315",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 81,
+          "remaining": 1863181
+         },
+         "tokensPerHour": {
+          "consumed": 81,
+          "remaining": 365758
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 81,
+          "remaining": 108258
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 45
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 45
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 143,
+          "remaining": 1864648
+         },
+         "tokensPerHour": {
+          "consumed": 143,
+          "remaining": 367225
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 143,
+          "remaining": 109725
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 29
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 45
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787828698631",
+    "endRequestTimestampMilliseconds": "1787828698647"
+   }
+  ]
+ }
+}

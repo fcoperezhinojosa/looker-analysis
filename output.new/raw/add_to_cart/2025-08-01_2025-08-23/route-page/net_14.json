@@ -1,0 +1,178 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_xzlzwqov4d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            2640
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "534ea0ba-732583-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=534ea0ba-732583-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_xzlzwqov4d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            1591
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "3fc1b999-732584-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=3fc1b999-732584-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     }
+    ],
+    "dataTimestamp": "1787833841577",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 13,
+          "remaining": 1721918
+         },
+         "tokensPerHour": {
+          "consumed": 13,
+          "remaining": 394405
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 13,
+          "remaining": 134405
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 24
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 83,
+          "remaining": 1720583
+         },
+         "tokensPerHour": {
+          "consumed": 83,
+          "remaining": 393070
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 83,
+          "remaining": 133070
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 45
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787842735334",
+    "endRequestTimestampMilliseconds": "1787842735344"
+   }
+  ]
+ }
+}

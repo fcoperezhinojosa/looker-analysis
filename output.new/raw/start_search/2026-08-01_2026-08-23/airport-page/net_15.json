@@ -1,0 +1,184 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_7ins9sum6d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            113
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "ed6a07ae-13228722-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=ed6a07ae-13228722-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_7ins9sum6d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            167
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "b2c71663-13228723-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=b2c71663-13228723-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     }
+    ],
+    "dataTimestamp": "1787828864428",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 75,
+          "remaining": 1775878
+         },
+         "tokensPerHour": {
+          "consumed": 75,
+          "remaining": 314421
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 75,
+          "remaining": 54421
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 49
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787828864428",
+        "requestEndTimeMs": "1787828887384"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 140,
+          "remaining": 1778469
+         },
+         "tokensPerHour": {
+          "consumed": 140,
+          "remaining": 317012
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 140,
+          "remaining": 57012
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 22
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787828864442",
+        "requestEndTimeMs": "1787828883153"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787828864419",
+    "endRequestTimestampMilliseconds": "1787828887399"
+   }
+  ]
+ }
+}

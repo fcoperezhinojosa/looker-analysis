@@ -1,0 +1,178 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_9896rwum6d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            3807
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "b2925c39-497101-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=b2925c39-497101-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_9896rwum6d"
+         }
+        ],
+        "totalCount": 1,
+        "column": [
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            266
+           ]
+          }
+         }
+        ],
+        "size": 1,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "620d183f-497102-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=620d183f-497102-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "isTotals": false,
+       "role": "main",
+       "bypassCanvasFilters": false
+      }
+     }
+    ],
+    "dataTimestamp": "1787815075435",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 13,
+          "remaining": 1976040
+         },
+         "tokensPerHour": {
+          "consumed": 13,
+          "remaining": 363215
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 13,
+          "remaining": 105815
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 35
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 79,
+          "remaining": 1975310
+         },
+         "tokensPerHour": {
+          "consumed": 79,
+          "remaining": 362485
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 79,
+          "remaining": 105085
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 37
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787830742297",
+    "endRequestTimestampMilliseconds": "1787830742306"
+   }
+  ]
+ }
+}

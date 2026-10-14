@@ -1,0 +1,2 @@
+[console_scripts]
+looker-capture = looker_capture.cli:main

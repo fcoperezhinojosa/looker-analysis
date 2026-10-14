@@ -1,0 +1,277 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260823_0000",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_mv7hat265d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_nv7hat265d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_ov7hat265d"
+         }
+        ],
+        "totalCount": 8,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Spain",
+            "Ireland",
+            "Italy",
+            "Belgium",
+            "United States",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            10,
+            9,
+            8,
+            5,
+            3,
+            2,
+            2,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 8,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "b76a6baa-139168-20260828",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=b76a6baa-139168-20260828"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_mv7hat265d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_nv7hat265d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_ov7hat265d"
+         }
+        ],
+        "totalCount": 8,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Spain",
+            "Ireland",
+            "Italy",
+            "Belgium",
+            "United States",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [
+           3,
+           4,
+           5,
+           7
+          ],
+          "doubleColumn": {
+           "values": [
+            16,
+            2,
+            4,
+            2
+           ]
+          }
+         }
+        ],
+        "size": 8,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "b76a6baa-139168-20260828",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=b76a6baa-139168-20260828"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787896522577",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 65,
+          "remaining": 1498295
+         },
+         "tokensPerHour": {
+          "consumed": 65,
+          "remaining": 381345
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 65,
+          "remaining": 123945
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 47
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 121,
+          "remaining": 1499245
+         },
+         "tokensPerHour": {
+          "consumed": 121,
+          "remaining": 382295
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 121,
+          "remaining": 124895
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 37
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "origin": 2,
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787902298590",
+    "endRequestTimestampMilliseconds": "1787902298612"
+   }
+  ]
+ }
+}

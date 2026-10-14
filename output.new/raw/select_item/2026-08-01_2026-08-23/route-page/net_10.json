@@ -1,0 +1,306 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_kbst23a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_lbst23a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_mbst23a65d"
+         }
+        ],
+        "totalCount": 12,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Italy",
+            "Germany",
+            "Ireland",
+            "Spain",
+            "Netherlands",
+            "France",
+            "Belgium",
+            "Sweden",
+            "Norway",
+            "United States",
+            "Finland"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            427,
+            335,
+            272,
+            144,
+            112,
+            100,
+            92,
+            63,
+            58,
+            34,
+            27,
+            23
+           ]
+          }
+         }
+        ],
+        "size": 12,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "cf84a727-621562-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=cf84a727-621562-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_kbst23a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_lbst23a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_mbst23a65d"
+         }
+        ],
+        "totalCount": 12,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Italy",
+            "Germany",
+            "Ireland",
+            "Spain",
+            "Netherlands",
+            "France",
+            "Belgium",
+            "Sweden",
+            "Norway",
+            "United States",
+            "Finland"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            1420,
+            364,
+            605,
+            406,
+            207,
+            109,
+            112,
+            65,
+            135,
+            110,
+            42,
+            46
+           ]
+          }
+         }
+        ],
+        "size": 12,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "cf84a727-621562-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=cf84a727-621562-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787831752771",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 71,
+          "remaining": 1751828
+         },
+         "tokensPerHour": {
+          "consumed": 71,
+          "remaining": 382280
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 71,
+          "remaining": 122380
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 42
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787831752770",
+        "requestEndTimeMs": "1787831771859"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 130,
+          "remaining": 1754251
+         },
+         "tokensPerHour": {
+          "consumed": 130,
+          "remaining": 384703
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 130,
+          "remaining": 124803
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 18
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787831752770",
+        "requestEndTimeMs": "1787831769301"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787831752760",
+    "endRequestTimestampMilliseconds": "1787831771892"
+   }
+  ]
+ }
+}

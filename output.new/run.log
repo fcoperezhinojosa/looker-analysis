@@ -1,0 +1,673 @@
+2026-08-27 12:37:43 INFO    looker_capture Starting capture: 7 page(s) x 2 period(s) x 4 group(s) = 56 combinations
+2026-08-27 12:37:43 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-27 12:37:44 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-27 12:37:44 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 12:38:39 INFO    looker_capture.capture sessions/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 12:40:13 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:40:14 INFO    looker_capture.capture DONE page=sessions period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:40:24 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 12:41:21 INFO    looker_capture.capture sessions/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 12:42:57 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:42:59 INFO    looker_capture.capture DONE page=sessions period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:43:09 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 12:44:05 INFO    looker_capture.capture sessions/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 12:45:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:45:54 INFO    looker_capture.capture DONE page=sessions period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:46:04 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 12:47:01 INFO    looker_capture.capture sessions/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 12:48:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:48:44 INFO    looker_capture.capture DONE page=sessions period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:48:54 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 12:50:03 INFO    looker_capture.capture sessions/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 12:51:37 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:51:39 INFO    looker_capture.capture DONE page=sessions period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:51:49 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 12:52:55 INFO    looker_capture.capture sessions/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 12:54:31 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:54:33 INFO    looker_capture.capture DONE page=sessions period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:54:43 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 12:55:49 INFO    looker_capture.capture sessions/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 12:57:27 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 12:57:28 INFO    looker_capture.capture DONE page=sessions period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 12:57:38 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 12:58:45 INFO    looker_capture.capture sessions/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:00:23 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:00:24 INFO    looker_capture.capture DONE page=sessions period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:00:34 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 13:01:31 INFO    looker_capture.capture start_search/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:03:05 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:03:07 INFO    looker_capture.capture DONE page=start_search period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:03:17 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 13:04:13 INFO    looker_capture.capture start_search/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:05:49 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:05:51 INFO    looker_capture.capture DONE page=start_search period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:06:01 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 13:06:56 INFO    looker_capture.capture start_search/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:08:34 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:08:36 INFO    looker_capture.capture DONE page=start_search period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:08:46 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 13:09:43 INFO    looker_capture.capture start_search/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:11:19 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:11:21 INFO    looker_capture.capture DONE page=start_search period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:11:31 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 13:12:37 INFO    looker_capture.capture start_search/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:14:12 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:14:13 INFO    looker_capture.capture DONE page=start_search period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:14:23 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 13:15:29 INFO    looker_capture.capture start_search/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:17:05 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:17:06 INFO    looker_capture.capture DONE page=start_search period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:17:16 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 13:18:22 INFO    looker_capture.capture start_search/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:20:07 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:20:08 INFO    looker_capture.capture DONE page=start_search period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:20:18 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 13:21:25 INFO    looker_capture.capture start_search/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:23:09 INFO    looker_capture.extract Extracted 21 component(s): 13 scorecard(s), 8 table(s)
+2026-08-27 13:23:11 INFO    looker_capture.capture DONE page=start_search period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=21
+2026-08-27 13:23:21 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 13:24:17 INFO    looker_capture.capture searches/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:25:51 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:25:52 INFO    looker_capture.capture DONE page=searches period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:26:02 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 13:26:58 INFO    looker_capture.capture searches/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:28:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:28:37 INFO    looker_capture.capture DONE page=searches period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:28:47 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 13:29:44 INFO    looker_capture.capture searches/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:31:20 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:31:21 INFO    looker_capture.capture DONE page=searches period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:31:31 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 13:32:28 INFO    looker_capture.capture searches/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:34:04 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:34:05 INFO    looker_capture.capture DONE page=searches period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:34:15 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 13:35:22 INFO    looker_capture.capture searches/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:36:56 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:36:58 INFO    looker_capture.capture DONE page=searches period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:37:08 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 13:38:14 INFO    looker_capture.capture searches/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:39:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:39:54 INFO    looker_capture.capture DONE page=searches period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:40:04 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 13:41:12 INFO    looker_capture.capture searches/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:42:48 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:42:50 INFO    looker_capture.capture DONE page=searches period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:43:00 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 13:44:13 INFO    looker_capture.capture searches/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:45:49 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:45:50 INFO    looker_capture.capture DONE page=searches period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:46:00 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 13:46:57 INFO    looker_capture.capture select_item/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:48:32 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:48:33 INFO    looker_capture.capture DONE page=select_item period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:48:43 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 13:49:39 INFO    looker_capture.capture select_item/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:51:16 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:51:17 INFO    looker_capture.capture DONE page=select_item period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:51:27 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 13:52:24 INFO    looker_capture.capture select_item/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:54:00 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:54:01 INFO    looker_capture.capture DONE page=select_item period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:54:11 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 13:55:07 INFO    looker_capture.capture select_item/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 13:56:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:56:44 INFO    looker_capture.capture DONE page=select_item period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:56:54 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 13:58:01 INFO    looker_capture.capture select_item/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 13:59:35 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 13:59:36 INFO    looker_capture.capture DONE page=select_item period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 13:59:46 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 14:00:53 INFO    looker_capture.capture select_item/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:02:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:02:39 INFO    looker_capture.capture DONE page=select_item period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:02:49 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 14:03:56 INFO    looker_capture.capture select_item/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:05:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:05:44 INFO    looker_capture.capture DONE page=select_item period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:05:54 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 14:07:03 INFO    looker_capture.capture select_item/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:08:49 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:08:50 INFO    looker_capture.capture DONE page=select_item period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:09:00 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 14:09:56 INFO    looker_capture.capture add_to_cart/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:11:30 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:11:31 INFO    looker_capture.capture DONE page=add_to_cart period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:11:41 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 14:12:37 INFO    looker_capture.capture add_to_cart/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:14:14 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:14:15 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:14:25 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 14:15:22 INFO    looker_capture.capture add_to_cart/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:16:58 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:17:00 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:17:10 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 14:18:09 INFO    looker_capture.capture add_to_cart/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:19:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:19:46 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:19:56 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 14:21:02 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:22:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:22:37 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:22:47 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 14:23:53 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:25:37 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:25:38 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:25:48 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 14:26:54 INFO    looker_capture.capture add_to_cart/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:28:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:28:40 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:28:50 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 14:29:56 INFO    looker_capture.capture add_to_cart/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:31:42 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:31:43 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:31:53 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 14:32:50 INFO    looker_capture.capture begin_checkout/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:34:24 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:34:25 INFO    looker_capture.capture DONE page=begin_checkout period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:34:35 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 14:35:32 INFO    looker_capture.capture begin_checkout/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:37:08 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:37:09 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:37:19 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 14:38:15 INFO    looker_capture.capture begin_checkout/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:39:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:39:53 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:40:03 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 14:41:00 INFO    looker_capture.capture begin_checkout/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:42:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:42:37 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:42:47 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 14:44:28 INFO    looker_capture.capture begin_checkout/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 14:46:02 WARNING looker_capture.extract Could not enumerate report components: Page.evaluate: Target page, context or browser has been closed
+2026-08-27 14:46:02 WARNING looker_capture.capture Screenshots failed for output.new/begin_checkout/2025-08-01_2025-08-23/all-landing-pages: Page.screenshot: Target page, context or browser has been closed
+2026-08-27 14:46:02 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=All landing pages status=partial date_chip=FAIL filter_chip=OK quota_retries=0 tiles=0
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:12 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 14:46:12 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-27 14:46:13 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-27 14:46:13 WARNING looker_capture.export 236 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-27 14:46:13 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_lk4ldu_n
+2026-08-27 14:46:14 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-27 14:48:59 INFO    looker_capture Starting capture: 2 page(s) x 2 period(s) x 4 group(s) = 16 combinations
+2026-08-27 14:49:00 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-27 14:49:01 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-27 14:49:01 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 14:50:01 INFO    looker_capture.capture begin_checkout/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:51:34 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:51:36 INFO    looker_capture.capture DONE page=begin_checkout period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:51:46 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 14:52:41 INFO    looker_capture.capture begin_checkout/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:54:17 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:54:18 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:54:28 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 14:55:24 INFO    looker_capture.capture begin_checkout/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:57:00 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:57:01 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:57:11 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 14:58:10 INFO    looker_capture.capture begin_checkout/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 14:59:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 14:59:47 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 14:59:57 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 15:01:03 INFO    looker_capture.capture begin_checkout/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:02:37 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:02:38 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:02:48 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 15:03:56 INFO    looker_capture.capture begin_checkout/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:05:42 WARNING looker_capture.extract Could not enumerate report components: Page.evaluate: Target page, context or browser has been closed
+2026-08-27 15:05:42 WARNING looker_capture.capture Screenshots failed for output.new/begin_checkout/2025-08-01_2025-08-23/home-page: Page.screenshot: Target page, context or browser has been closed
+2026-08-27 15:05:42 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Home page status=partial date_chip=FAIL filter_chip=OK quota_retries=0 tiles=0
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 15:05:52 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-08-27 15:05:52 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-27 15:05:52 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-27 15:05:52 WARNING looker_capture.export 241 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-27 15:05:52 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_w1mvz05n
+2026-08-27 15:05:54 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-27 15:27:47 INFO    looker_capture Starting capture: 3 page(s) x 2 period(s) x 4 group(s) = 24 combinations
+2026-08-27 15:27:47 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-27 15:27:48 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-27 15:27:48 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 15:28:39 INFO    looker_capture.capture add_to_cart/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:30:12 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-08-27 15:30:14 INFO    looker_capture.capture DONE page=add_to_cart period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:30:24 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 15:31:20 INFO    looker_capture.capture add_to_cart/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:32:56 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-08-27 15:32:57 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:33:07 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 15:34:04 INFO    looker_capture.capture add_to_cart/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:35:39 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-08-27 15:35:41 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:35:51 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 15:36:50 INFO    looker_capture.capture add_to_cart/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:38:26 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:38:27 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:38:37 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 15:39:44 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:41:18 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:41:19 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:41:29 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 15:42:35 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:44:11 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:44:12 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:44:22 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 15:45:31 INFO    looker_capture.capture add_to_cart/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:47:07 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:47:08 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:47:18 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 15:48:24 INFO    looker_capture.capture add_to_cart/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 15:50:00 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:50:02 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:50:12 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 15:51:08 INFO    looker_capture.capture begin_checkout/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:52:41 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:52:43 INFO    looker_capture.capture DONE page=begin_checkout period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:52:53 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 15:53:49 INFO    looker_capture.capture begin_checkout/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:55:25 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:55:26 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:55:36 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 15:56:32 INFO    looker_capture.capture begin_checkout/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 15:58:08 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 15:58:09 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 15:58:19 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 15:59:15 INFO    looker_capture.capture begin_checkout/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:00:51 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:00:53 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:01:03 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 16:02:09 INFO    looker_capture.capture begin_checkout/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:03:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:03:44 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:03:54 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 16:05:01 INFO    looker_capture.capture begin_checkout/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:06:37 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:06:38 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:06:48 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 16:07:55 INFO    looker_capture.capture begin_checkout/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:09:31 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:09:32 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:09:42 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 16:10:49 INFO    looker_capture.capture begin_checkout/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:12:25 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:12:26 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:12:36 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 16:13:35 INFO    looker_capture.capture purchases/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:15:09 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:15:10 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:15:20 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 16:16:17 INFO    looker_capture.capture purchases/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:17:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:17:54 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:18:04 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 16:19:02 INFO    looker_capture.capture purchases/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:20:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:20:40 INFO    looker_capture.capture DONE page=purchases period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:20:50 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 16:21:46 INFO    looker_capture.capture purchases/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:23:22 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:23:24 INFO    looker_capture.capture DONE page=purchases period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:23:34 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 16:24:40 INFO    looker_capture.capture purchases/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:26:14 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:26:15 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:26:25 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 16:27:31 INFO    looker_capture.capture purchases/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:29:07 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:29:08 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:29:18 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 16:30:26 INFO    looker_capture.capture purchases/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:32:02 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:32:03 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:32:13 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 16:33:20 INFO    looker_capture.capture purchases/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:34:56 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:34:57 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:35:08 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-27 16:35:08 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-27 16:35:08 WARNING looker_capture.export 288 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-27 16:35:08 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_s9_k8nei
+2026-08-27 16:35:09 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-27 16:37:19 INFO    looker_capture Starting capture: 1 page(s) x 2 period(s) x 4 group(s) = 8 combinations
+2026-08-27 16:37:19 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-27 16:37:20 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-27 16:37:20 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 16:38:16 INFO    looker_capture.capture add_to_cart/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:39:50 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:39:51 INFO    looker_capture.capture DONE page=add_to_cart period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:40:01 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 16:40:58 INFO    looker_capture.capture add_to_cart/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:42:34 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:42:35 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:42:45 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 16:43:42 INFO    looker_capture.capture add_to_cart/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:45:18 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:45:19 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:45:29 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 16:46:26 INFO    looker_capture.capture add_to_cart/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 16:48:02 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:48:03 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:48:13 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 16:49:19 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:50:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:50:54 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:51:04 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 16:52:13 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:53:49 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:53:50 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:54:00 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 16:55:16 INFO    looker_capture.capture add_to_cart/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:56:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:56:53 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:57:03 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 16:58:09 INFO    looker_capture.capture add_to_cart/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 16:59:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 16:59:47 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 16:59:57 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-27 16:59:57 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-27 16:59:57 WARNING looker_capture.export 288 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-27 16:59:57 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_083cyo0c
+2026-08-27 16:59:58 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-27 18:48:18 INFO    looker_capture Starting capture: 1 page(s) x 2 period(s) x 4 group(s) = 8 combinations
+2026-08-27 18:48:19 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-27 18:48:20 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-27 18:48:20 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-27 18:49:16 INFO    looker_capture.capture purchases/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 18:50:51 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 18:50:52 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 18:51:02 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-27 18:52:01 INFO    looker_capture.capture purchases/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 18:53:02 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 1/3 (chip 'Add filter' shows no Landing Page Group filter (via ONLY link)); retrying in 2s
+2026-08-27 18:53:19 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-08-27 18:53:40 ERROR   looker_capture.selectors landing page group control (Home page) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-08-27 18:53:40 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 18:53:40 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-08-27 18:53:50 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-27 18:54:46 INFO    looker_capture.capture purchases/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 18:56:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 18:56:37 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 18:56:37 INFO    looker_capture.capture DONE page=purchases period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 18:56:47 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-27 18:57:44 INFO    looker_capture.capture purchases/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-27 18:59:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 18:59:37 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 18:59:37 INFO    looker_capture.capture DONE page=purchases period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 18:59:47 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-27 19:00:53 INFO    looker_capture.capture purchases/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 19:02:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 19:02:46 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 19:02:46 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 19:02:56 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-27 19:04:02 INFO    looker_capture.capture purchases/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 19:05:46 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 19:05:48 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 19:05:48 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 19:05:58 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-27 19:07:04 INFO    looker_capture.capture purchases/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 19:08:46 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 19:08:47 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 19:08:47 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 19:08:57 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-27 19:10:04 INFO    looker_capture.capture purchases/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-27 19:11:46 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-27 19:11:47 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 19:11:47 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-27 19:11:57 INFO    looker_capture.export Keeping the earlier ok result for purchases/current/Home page; the re-run was failed
+2026-08-27 19:11:57 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-27 19:11:57 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-27 19:11:57 WARNING looker_capture.export 344 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-27 19:11:57 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_3i5ao75e
+2026-08-27 19:11:59 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-28 07:44:34 INFO    looker_capture Starting capture: 1 page(s) x 2 period(s) x 4 group(s) = 8 combinations
+2026-08-28 07:44:34 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-28 07:44:40 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-28 07:44:40 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-28 07:45:54 INFO    looker_capture.capture purchases/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 07:47:28 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-08-28 07:47:29 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 07:47:39 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-28 07:48:37 INFO    looker_capture.capture purchases/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 07:50:27 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-08-28 07:50:29 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 07:50:39 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-28 07:51:36 INFO    looker_capture.capture purchases/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 07:53:26 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 07:53:27 INFO    looker_capture.capture DONE page=purchases period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 07:53:37 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-28 07:54:37 INFO    looker_capture.capture purchases/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 07:56:25 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 07:56:26 INFO    looker_capture.capture DONE page=purchases period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 07:56:36 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-28 07:57:45 INFO    looker_capture.capture purchases/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 07:59:35 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 07:59:36 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 07:59:46 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-28 08:00:55 INFO    looker_capture.capture purchases/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 08:02:41 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:02:42 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:02:52 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-28 08:03:53 INFO    looker_capture.capture purchases/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 08:05:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:05:46 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:05:56 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-28 08:07:04 INFO    looker_capture.capture purchases/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 08:08:56 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:08:57 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:09:07 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-28 08:09:07 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-28 08:09:07 WARNING looker_capture.export 288 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-28 08:09:07 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_0thkuh2u
+2026-08-28 08:09:09 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-28 08:10:00 INFO    looker_capture Starting capture: 1 page(s) x 2 period(s) x 2 group(s) = 4 combinations
+2026-08-28 08:10:00 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-28 08:10:01 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-28 08:10:02 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-28 08:11:06 INFO    looker_capture.capture purchases/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 08:12:40 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:12:41 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:12:51 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-28 08:13:48 INFO    looker_capture.capture purchases/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 08:15:24 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:15:25 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:15:35 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-28 08:16:42 INFO    looker_capture.capture purchases/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 08:18:16 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:18:17 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:18:27 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-28 08:19:37 INFO    looker_capture.capture purchases/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 08:21:13 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 08:21:14 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 08:21:24 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-28 08:21:25 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-28 08:21:25 WARNING looker_capture.export 288 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-28 08:21:25 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_faal1685
+2026-08-28 08:21:26 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx
+2026-08-28 09:21:18 INFO    looker_capture Starting capture: 1 page(s) x 2 period(s) x 4 group(s) = 8 combinations
+2026-08-28 09:21:19 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-08-28 09:21:20 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-08-28 09:21:20 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / All landing pages
+2026-08-28 09:22:24 INFO    looker_capture.capture purchases/current/All landing pages date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 09:23:58 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:23:59 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:24:09 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Home page
+2026-08-28 09:25:06 INFO    looker_capture.capture purchases/current/Home page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 09:26:48 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:26:49 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:26:59 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Airport page
+2026-08-28 09:27:56 INFO    looker_capture.capture purchases/current/Airport page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 09:29:44 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:29:45 INFO    looker_capture.capture DONE page=purchases period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:29:55 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-08-01..2026-08-23) / Route page
+2026-08-28 09:30:53 INFO    looker_capture.capture purchases/current/Route page date chip='1 Aug 2026 - 23 Aug 2026\narrow_drop_down' verified=True (matched)
+2026-08-28 09:32:33 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:32:34 INFO    looker_capture.capture DONE page=purchases period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:32:44 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / All landing pages
+2026-08-28 09:33:51 INFO    looker_capture.capture purchases/prior/All landing pages date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 09:35:25 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:35:26 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:35:36 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Home page
+2026-08-28 09:36:42 INFO    looker_capture.capture purchases/prior/Home page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 09:38:18 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:38:20 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:38:30 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Airport page
+2026-08-28 09:39:36 INFO    looker_capture.capture purchases/prior/Airport page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 09:41:21 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:41:22 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:41:32 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-08-01..2025-08-23) / Route page
+2026-08-28 09:42:39 INFO    looker_capture.capture purchases/prior/Route page date chip='1 Aug 2025 - 23 Aug 2025\narrow_drop_down' verified=True (matched)
+2026-08-28 09:44:14 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-08-28 09:44:16 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-08-28 09:44:26 INFO    looker_capture Merged into 56 existing combination(s) from a previous run
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/data.json
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_start_search.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_start_search_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_search.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_search_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_select_item.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_select_item_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_add_to_cart_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_begin_checkout_ly.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_purchase.py
+2026-08-28 09:44:26 INFO    looker_capture.export Wrote output.new/workbook/data_purchase_ly.py
+2026-08-28 09:44:26 WARNING looker_capture.export 288 tiles could not be attributed; see output.new/workbook/UNMAPPED.md
+2026-08-28 09:44:26 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_fgg77yv0
+2026-08-28 09:44:28 INFO    looker_capture.workbook Wrote output.new/Suntransfers_Funnel_YoY_1-23Aug26_vs_1-23Aug25.xlsx

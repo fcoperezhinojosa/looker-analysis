@@ -1,0 +1,277 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_lspyvknn6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_mspyvknn6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_nspyvknn6d"
+         }
+        ],
+        "totalCount": 7,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Finland",
+            "Germany",
+            "United States",
+            "Belgium",
+            "Spain",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            10,
+            4,
+            4,
+            4,
+            2,
+            2,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 7,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "fc311ec0-13652015-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=fc311ec0-13652015-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_lspyvknn6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_mspyvknn6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_nspyvknn6d"
+         }
+        ],
+        "totalCount": 7,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Finland",
+            "Germany",
+            "United States",
+            "Belgium",
+            "Spain",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop"
+           ]
+          }
+         },
+         {
+          "nullIndex": [
+           1,
+           4
+          ],
+          "doubleColumn": {
+           "values": [
+            44,
+            8,
+            2,
+            3,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 7,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "fc311ec0-13652015-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=fc311ec0-13652015-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787832282264",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 13,
+          "remaining": 1747362
+         },
+         "tokensPerHour": {
+          "consumed": 13,
+          "remaining": 377814
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 13,
+          "remaining": 117914
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 34
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787832282264",
+        "requestEndTimeMs": "1787832282561"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 78,
+          "remaining": 1746228
+         },
+         "tokensPerHour": {
+          "consumed": 78,
+          "remaining": 376680
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 78,
+          "remaining": 116780
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 42
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787832282264",
+        "requestEndTimeMs": "1787832297897"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787832282250",
+    "endRequestTimestampMilliseconds": "1787832297925"
+   }
+  ]
+ }
+}

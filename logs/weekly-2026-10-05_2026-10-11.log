@@ -1,0 +1,597 @@
+=== 2026-10-13 17:05:17 starting
+    current 05/10/2026-11/10/2026   prior 06/10/2025-12/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11
+2026-10-13 17:05:17 INFO    looker_capture Starting capture: 10 page(s) x 2 period(s) x 4 group(s) = 80 combinations
+2026-10-13 17:05:17 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-13 17:05:22 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-13 17:05:22 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+Error: Redirected to a Google sign-in page (https://accounts.google.com/v3/signin/confirmidentifier?authuser=0&continue=https://datast...). The stored session has expired — re-run with --login.
+FAILED rc=1 - looks like the Google session expired; run: /Users/francisco.perez/looker-yoy-capture/.venv/bin/python -m looker_capture --login
+=== 2026-10-13 17:05:24 exit 1
+=== 2026-10-13 17:07:49 starting
+    current 05/10/2026-11/10/2026   prior 06/10/2025-12/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11
+2026-10-13 17:07:49 INFO    looker_capture Starting capture: 10 page(s) x 2 period(s) x 4 group(s) = 80 combinations
+2026-10-13 17:07:49 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-13 17:07:50 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-13 17:07:50 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+=== 2026-10-13 17:08:24 skipped: capture already running (pid 52195)
+
+Aborted!
+FAILED rc=1 - looks like the Google session expired; run: /Users/francisco.perez/looker-yoy-capture/.venv/bin/python -m looker_capture --login
+=== 2026-10-13 17:08:32 exit 1
+=== 2026-10-13 17:09:27 starting
+    current 05/10/2026-11/10/2026   prior 06/10/2025-12/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11
+2026-10-13 17:09:27 INFO    looker_capture Starting capture: 10 page(s) x 2 period(s) x 4 group(s) = 80 combinations
+2026-10-13 17:09:27 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-13 17:09:28 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-13 17:09:28 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 17:10:27 INFO    looker_capture.capture sessions/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 17:12:01 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:12:02 INFO    looker_capture.capture DONE page=sessions period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:12:12 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 17:13:11 INFO    looker_capture.capture sessions/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 17:14:51 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:14:52 INFO    looker_capture.capture DONE page=sessions period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:15:02 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 17:16:01 INFO    looker_capture.capture sessions/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 17:17:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:17:45 INFO    looker_capture.capture DONE page=sessions period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:17:55 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 17:18:53 INFO    looker_capture.capture sessions/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 17:20:35 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:20:37 INFO    looker_capture.capture DONE page=sessions period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:20:47 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 17:21:56 INFO    looker_capture.capture sessions/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 17:23:30 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:23:31 INFO    looker_capture.capture DONE page=sessions period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:23:41 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 17:24:50 INFO    looker_capture.capture sessions/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 17:26:32 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:26:33 INFO    looker_capture.capture DONE page=sessions period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:26:43 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 17:27:50 INFO    looker_capture.capture sessions/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 17:29:30 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:29:31 INFO    looker_capture.capture DONE page=sessions period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:29:41 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 17:30:48 INFO    looker_capture.capture sessions/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 17:32:28 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 17:32:29 INFO    looker_capture.capture DONE page=sessions period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 17:32:39 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 17:33:34 WARNING looker_capture.waits start_search/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-13 17:35:00 WARNING looker_capture.waits start_search/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-13 17:37:11 WARNING looker_capture.waits start_search/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-13 17:40:52 ERROR   looker_capture.waits start_search/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-13 17:40:52 WARNING looker_capture.capture Load of start_search for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-13 17:40:58 INFO    looker_capture.capture start_search/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 17:41:39 WARNING looker_capture.waits start_search/current/All landing pages/after-date hit a quota error; backing off 45s then retrying
+2026-10-13 17:43:06 WARNING looker_capture.waits start_search/current/All landing pages/after-date hit a quota error; backing off 90s then retrying
+2026-10-13 17:45:17 WARNING looker_capture.waits start_search/current/All landing pages/after-date hit a quota error; backing off 180s then retrying
+2026-10-13 17:48:58 ERROR   looker_capture.waits start_search/current/All landing pages/after-date still showing a quota error after 3 retries
+2026-10-13 17:49:51 WARNING looker_capture.waits start_search/current/All landing pages hit a quota error; backing off 45s then retrying
+2026-10-13 17:50:50 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 17:51:08 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 17:51:29 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 17:52:10 WARNING looker_capture.waits start_search/current/All landing pages hit a quota error; backing off 90s then retrying
+2026-10-13 17:53:55 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 17:54:13 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 17:54:33 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 17:55:14 WARNING looker_capture.waits start_search/current/All landing pages hit a quota error; backing off 180s then retrying
+2026-10-13 17:58:30 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 17:58:48 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 17:59:08 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 17:59:49 ERROR   looker_capture.waits start_search/current/All landing pages still showing a quota error after 3 retries
+2026-10-13 17:59:49 ERROR   looker_capture.capture start_search/current/All landing pages abandoned after 4 quota retries
+2026-10-13 17:59:49 INFO    looker_capture.capture DONE page=start_search period=current group=All landing pages status=quota_error date_chip=OK filter_chip=FAIL quota_retries=4 tiles=0
+2026-10-13 17:59:59 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 18:00:59 INFO    looker_capture.capture start_search/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:02:43 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:02:44 INFO    looker_capture.capture DONE page=start_search period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:02:54 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 18:03:53 INFO    looker_capture.capture start_search/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:05:40 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:05:41 INFO    looker_capture.capture DONE page=start_search period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:05:51 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 18:06:50 INFO    looker_capture.capture start_search/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:08:34 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:08:35 INFO    looker_capture.capture DONE page=start_search period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:08:45 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 18:09:54 INFO    looker_capture.capture start_search/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:11:28 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:11:30 INFO    looker_capture.capture DONE page=start_search period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:11:40 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 18:12:48 INFO    looker_capture.capture start_search/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:14:34 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:14:36 INFO    looker_capture.capture DONE page=start_search period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:14:46 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 18:15:55 INFO    looker_capture.capture start_search/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:17:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:17:46 INFO    looker_capture.capture DONE page=start_search period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:17:56 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 18:19:07 INFO    looker_capture.capture start_search/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:20:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:20:54 INFO    looker_capture.capture DONE page=start_search period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:21:04 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 18:22:03 WARNING looker_capture.waits searches/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-13 18:23:29 WARNING looker_capture.waits searches/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-13 18:25:40 WARNING looker_capture.waits searches/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-13 18:29:21 ERROR   looker_capture.waits searches/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-13 18:29:21 WARNING looker_capture.capture Load of searches for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-13 18:29:27 INFO    looker_capture.capture searches/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:31:01 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:31:03 INFO    looker_capture.capture DONE page=searches period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:31:13 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 18:32:12 INFO    looker_capture.capture searches/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:33:58 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 8 table(s)
+2026-10-13 18:33:59 INFO    looker_capture.capture DONE page=searches period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:34:09 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 18:35:08 INFO    looker_capture.capture searches/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:36:54 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:36:56 INFO    looker_capture.capture DONE page=searches period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:37:06 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 18:38:05 INFO    looker_capture.capture searches/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 18:39:51 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:39:53 INFO    looker_capture.capture DONE page=searches period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:40:03 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 18:41:12 INFO    looker_capture.capture searches/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:42:46 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:42:47 INFO    looker_capture.capture DONE page=searches period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:42:57 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 18:44:06 INFO    looker_capture.capture searches/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:45:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:45:53 INFO    looker_capture.capture DONE page=searches period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:46:03 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 18:47:13 INFO    looker_capture.capture searches/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:48:57 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:48:59 INFO    looker_capture.capture DONE page=searches period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:49:09 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 18:50:17 INFO    looker_capture.capture searches/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 18:52:01 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 18:52:03 INFO    looker_capture.capture DONE page=searches period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 18:52:13 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 18:53:22 WARNING looker_capture.waits purchases/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-13 18:54:48 WARNING looker_capture.waits purchases/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-13 18:56:59 WARNING looker_capture.waits purchases/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-13 19:00:40 ERROR   looker_capture.waits purchases/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-13 19:00:40 WARNING looker_capture.capture Load of purchases for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-13 19:00:47 INFO    looker_capture.capture purchases/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:01:28 WARNING looker_capture.waits purchases/current/All landing pages/after-date hit a quota error; backing off 45s then retrying
+2026-10-13 19:02:54 WARNING looker_capture.waits purchases/current/All landing pages/after-date hit a quota error; backing off 90s then retrying
+2026-10-13 19:05:05 WARNING looker_capture.waits purchases/current/All landing pages/after-date hit a quota error; backing off 180s then retrying
+2026-10-13 19:08:46 ERROR   looker_capture.waits purchases/current/All landing pages/after-date still showing a quota error after 3 retries
+2026-10-13 19:09:39 WARNING looker_capture.waits purchases/current/All landing pages hit a quota error; backing off 45s then retrying
+2026-10-13 19:10:39 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 19:10:56 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 19:11:17 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 19:11:58 WARNING looker_capture.waits purchases/current/All landing pages hit a quota error; backing off 90s then retrying
+2026-10-13 19:13:43 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 19:14:01 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 19:14:21 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 19:15:03 WARNING looker_capture.waits purchases/current/All landing pages hit a quota error; backing off 180s then retrying
+2026-10-13 19:18:18 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 19:18:36 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 19:18:56 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 19:19:37 ERROR   looker_capture.waits purchases/current/All landing pages still showing a quota error after 3 retries
+2026-10-13 19:19:37 ERROR   looker_capture.capture purchases/current/All landing pages abandoned after 4 quota retries
+2026-10-13 19:19:38 INFO    looker_capture.capture DONE page=purchases period=current group=All landing pages status=quota_error date_chip=OK filter_chip=FAIL quota_retries=4 tiles=0
+2026-10-13 19:19:48 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 19:20:47 INFO    looker_capture.capture purchases/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:22:31 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:22:32 INFO    looker_capture.capture DONE page=purchases period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:22:42 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 19:23:41 INFO    looker_capture.capture purchases/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:25:29 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:25:30 INFO    looker_capture.capture DONE page=purchases period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:25:40 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 19:26:40 INFO    looker_capture.capture purchases/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:28:26 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 6 table(s)
+2026-10-13 19:28:27 INFO    looker_capture.capture DONE page=purchases period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:28:37 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 19:29:47 INFO    looker_capture.capture purchases/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 19:31:21 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:31:22 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:31:32 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 19:32:41 INFO    looker_capture.capture purchases/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 19:34:26 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-13 19:34:27 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:34:37 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 19:35:44 INFO    looker_capture.capture purchases/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 19:37:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-13 19:37:39 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:37:49 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 19:38:59 INFO    looker_capture.capture purchases/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 19:40:49 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-13 19:40:50 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:41:00 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 19:42:11 WARNING looker_capture.waits select_item/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-13 19:43:37 WARNING looker_capture.waits select_item/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-13 19:45:48 WARNING looker_capture.waits select_item/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-13 19:49:30 ERROR   looker_capture.waits select_item/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-13 19:49:30 WARNING looker_capture.capture Load of select_item for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-13 19:49:36 INFO    looker_capture.capture select_item/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:51:40 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:51:42 INFO    looker_capture.capture DONE page=select_item period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:51:52 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 19:52:51 INFO    looker_capture.capture select_item/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:54:37 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:54:39 INFO    looker_capture.capture DONE page=select_item period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:54:49 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 19:55:46 INFO    looker_capture.capture select_item/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 19:57:33 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 19:57:34 INFO    looker_capture.capture DONE page=select_item period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 19:57:44 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 19:58:43 INFO    looker_capture.capture select_item/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 20:00:30 INFO    looker_capture.extract Extracted 20 component(s): 11 scorecard(s), 7 table(s)
+2026-10-13 20:00:31 INFO    looker_capture.capture DONE page=select_item period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:00:41 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 20:01:51 INFO    looker_capture.capture select_item/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:03:25 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:03:27 INFO    looker_capture.capture DONE page=select_item period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:03:37 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 20:04:46 INFO    looker_capture.capture select_item/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:06:32 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:06:34 INFO    looker_capture.capture DONE page=select_item period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:06:44 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 20:07:53 INFO    looker_capture.capture select_item/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:09:41 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:09:43 INFO    looker_capture.capture DONE page=select_item period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:09:53 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 20:11:02 INFO    looker_capture.capture select_item/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:12:47 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:12:48 INFO    looker_capture.capture DONE page=select_item period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:12:58 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 20:13:53 WARNING looker_capture.waits add_to_cart/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-13 20:15:19 WARNING looker_capture.waits add_to_cart/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-13 20:17:30 WARNING looker_capture.waits add_to_cart/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-13 20:21:12 ERROR   looker_capture.waits add_to_cart/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-13 20:21:12 WARNING looker_capture.capture Load of add_to_cart for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-13 20:21:18 INFO    looker_capture.capture add_to_cart/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 20:21:59 WARNING looker_capture.waits add_to_cart/current/All landing pages/after-date hit a quota error; backing off 45s then retrying
+2026-10-13 20:23:25 WARNING looker_capture.waits add_to_cart/current/All landing pages/after-date hit a quota error; backing off 90s then retrying
+2026-10-13 20:25:36 WARNING looker_capture.waits add_to_cart/current/All landing pages/after-date hit a quota error; backing off 180s then retrying
+2026-10-13 20:29:17 ERROR   looker_capture.waits add_to_cart/current/All landing pages/after-date still showing a quota error after 3 retries
+2026-10-13 20:30:10 WARNING looker_capture.waits add_to_cart/current/All landing pages hit a quota error; backing off 45s then retrying
+2026-10-13 20:31:10 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 20:31:27 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 20:31:48 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 20:32:29 WARNING looker_capture.waits add_to_cart/current/All landing pages hit a quota error; backing off 90s then retrying
+2026-10-13 20:34:15 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 20:34:32 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 20:34:53 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 20:35:34 WARNING looker_capture.waits add_to_cart/current/All landing pages hit a quota error; backing off 180s then retrying
+2026-10-13 20:38:50 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-13 20:39:07 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-13 20:39:28 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-13 20:40:09 ERROR   looker_capture.waits add_to_cart/current/All landing pages still showing a quota error after 3 retries
+2026-10-13 20:40:09 ERROR   looker_capture.capture add_to_cart/current/All landing pages abandoned after 4 quota retries
+2026-10-13 20:40:09 INFO    looker_capture.capture DONE page=add_to_cart period=current group=All landing pages status=quota_error date_chip=OK filter_chip=FAIL quota_retries=4 tiles=0
+2026-10-13 20:40:19 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 20:41:19 INFO    looker_capture.capture add_to_cart/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 20:43:03 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:43:04 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:43:14 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 20:44:14 INFO    looker_capture.capture add_to_cart/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 20:45:58 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:45:59 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:46:09 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 20:47:09 INFO    looker_capture.capture add_to_cart/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 20:48:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:48:54 INFO    looker_capture.capture DONE page=add_to_cart period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:49:04 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 20:50:14 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:51:48 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:51:49 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:51:59 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 20:53:06 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:54:52 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:54:54 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:55:04 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 20:56:13 INFO    looker_capture.capture add_to_cart/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 20:58:03 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 20:58:05 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 20:58:15 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 20:59:24 INFO    looker_capture.capture add_to_cart/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:01:08 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:01:09 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:01:19 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 21:02:19 INFO    looker_capture.capture begin_checkout/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:03:53 INFO    looker_capture.extract Extracted 20 component(s): 10 scorecard(s), 8 table(s)
+2026-10-13 21:03:55 INFO    looker_capture.capture DONE page=begin_checkout period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:04:05 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 21:05:03 INFO    looker_capture.capture begin_checkout/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:06:47 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:06:48 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:06:58 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 21:07:58 INFO    looker_capture.capture begin_checkout/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:09:44 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:09:45 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:09:55 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 21:10:56 INFO    looker_capture.capture begin_checkout/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:12:40 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 6 table(s)
+2026-10-13 21:12:42 INFO    looker_capture.capture DONE page=begin_checkout period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:12:52 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 21:14:01 INFO    looker_capture.capture begin_checkout/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:15:35 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:15:36 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:15:46 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 21:16:54 INFO    looker_capture.capture begin_checkout/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:18:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:18:39 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:18:49 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 21:20:00 INFO    looker_capture.capture begin_checkout/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:21:44 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:21:45 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:21:55 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 21:23:04 INFO    looker_capture.capture begin_checkout/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:24:48 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-13 21:24:50 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-13 21:25:00 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 21:26:15 INFO    looker_capture.capture kpis_by_route/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:26:56 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:26:58 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:27:03 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:27:03 INFO    looker_capture.capture DONE page=kpis_by_route period=current group=All landing pages status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:27:13 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 21:28:10 INFO    looker_capture.capture kpis_by_route/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:28:51 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:28:53 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:28:58 ERROR   looker_capture.selectors landing page group control (Home page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:28:58 INFO    looker_capture.capture DONE page=kpis_by_route period=current group=Home page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:29:08 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 21:30:05 INFO    looker_capture.capture kpis_by_route/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:30:46 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:30:48 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:30:54 ERROR   looker_capture.selectors landing page group control (Airport page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:30:54 INFO    looker_capture.capture DONE page=kpis_by_route period=current group=Airport page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:31:04 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 21:32:00 INFO    looker_capture.capture kpis_by_route/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 21:32:41 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:32:44 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:32:49 ERROR   looker_capture.selectors landing page group control (Route page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:32:49 INFO    looker_capture.capture DONE page=kpis_by_route period=current group=Route page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:32:59 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 21:34:06 INFO    looker_capture.capture kpis_by_route/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:34:53 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:34:55 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:35:00 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:35:00 INFO    looker_capture.capture DONE page=kpis_by_route period=prior group=All landing pages status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:35:10 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 21:36:17 INFO    looker_capture.capture kpis_by_route/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:36:58 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:37:00 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:37:06 ERROR   looker_capture.selectors landing page group control (Home page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:37:06 INFO    looker_capture.capture DONE page=kpis_by_route period=prior group=Home page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:37:16 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 21:38:25 INFO    looker_capture.capture kpis_by_route/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:39:06 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:39:08 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:39:13 ERROR   looker_capture.selectors landing page group control (Airport page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:39:13 INFO    looker_capture.capture DONE page=kpis_by_route period=prior group=Airport page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:39:23 INFO    looker_capture.capture Navigating to KPIs by Route (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_diw3ey7n6d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 21:40:30 INFO    looker_capture.capture kpis_by_route/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 21:41:11 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:41:13 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:41:18 ERROR   looker_capture.selectors landing page group control (Route page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:41:18 INFO    looker_capture.capture DONE page=kpis_by_route period=prior group=Route page status=failed date_chip=OK filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:41:28 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 21:42:25 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:42:29 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:42:36 ERROR   looker_capture.selectors date range control (2026-10-05..2026-10-11) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:42:36 INFO    looker_capture.capture booking_funnel/current/All landing pages date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:43:18 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:43:21 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:43:26 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:43:26 INFO    looker_capture.capture DONE page=booking_funnel period=current group=All landing pages status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:43:36 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 21:44:29 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:44:33 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:44:41 ERROR   looker_capture.selectors date range control (2026-10-05..2026-10-11) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:44:41 INFO    looker_capture.capture booking_funnel/current/Home page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:45:23 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:45:25 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:45:30 ERROR   looker_capture.selectors landing page group control (Home page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:45:30 INFO    looker_capture.capture DONE page=booking_funnel period=current group=Home page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:45:40 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 21:46:32 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:46:37 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:46:44 ERROR   looker_capture.selectors date range control (2026-10-05..2026-10-11) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:46:44 INFO    looker_capture.capture booking_funnel/current/Airport page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:47:26 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:47:28 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:47:33 ERROR   looker_capture.selectors landing page group control (Airport page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:47:33 INFO    looker_capture.capture DONE page=booking_funnel period=current group=Airport page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:47:43 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 21:48:36 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:48:40 WARNING looker_capture.selectors date range control (2026-10-05..2026-10-11) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:48:48 ERROR   looker_capture.selectors date range control (2026-10-05..2026-10-11) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:48:48 INFO    looker_capture.capture booking_funnel/current/Route page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:49:30 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:49:32 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:49:37 ERROR   looker_capture.selectors landing page group control (Route page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:49:37 INFO    looker_capture.capture DONE page=booking_funnel period=current group=Route page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:49:47 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 21:50:39 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:50:44 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:50:51 ERROR   looker_capture.selectors date range control (2025-10-06..2025-10-12) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:50:51 INFO    looker_capture.capture booking_funnel/prior/All landing pages date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:51:33 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:51:35 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:51:40 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:51:41 INFO    looker_capture.capture DONE page=booking_funnel period=prior group=All landing pages status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:51:51 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 21:52:43 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:52:48 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:52:55 ERROR   looker_capture.selectors date range control (2025-10-06..2025-10-12) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:52:55 INFO    looker_capture.capture booking_funnel/prior/Home page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:53:37 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:53:39 WARNING looker_capture.selectors landing page group control (Home page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:53:44 ERROR   looker_capture.selectors landing page group control (Home page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:53:44 INFO    looker_capture.capture DONE page=booking_funnel period=prior group=Home page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:53:54 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 21:54:47 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:54:52 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:54:59 ERROR   looker_capture.selectors date range control (2025-10-06..2025-10-12) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:54:59 INFO    looker_capture.capture booking_funnel/prior/Airport page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:55:41 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:55:43 WARNING looker_capture.selectors landing page group control (Airport page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:55:48 ERROR   looker_capture.selectors landing page group control (Airport page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:55:48 INFO    looker_capture.capture DONE page=booking_funnel period=prior group=Airport page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:55:58 INFO    looker_capture.capture Navigating to Booking Funnel Detail (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_a75y6vgl3d/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 21:56:51 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 1/3 (date picker has no .start-date-picker calendar); retrying in 2s
+2026-10-13 21:56:55 WARNING looker_capture.selectors date range control (2025-10-06..2025-10-12) did not verify on attempt 2/3 (date picker has no .start-date-picker calendar); retrying in 5s
+2026-10-13 21:57:03 ERROR   looker_capture.selectors date range control (2025-10-06..2025-10-12) failed after 3 attempts: date picker has no .start-date-picker calendar
+2026-10-13 21:57:03 INFO    looker_capture.capture booking_funnel/prior/Route page date chip='' verified=False (date picker has no .start-date-picker calendar)
+2026-10-13 21:57:45 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-13 21:57:47 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-13 21:57:52 ERROR   looker_capture.selectors landing page group control (Route page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-13 21:57:52 INFO    looker_capture.capture DONE page=booking_funnel period=prior group=Route page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-13 21:58:02 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-13 21:59:26 INFO    looker_capture.capture horizontal/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 22:01:17 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:01:18 INFO    looker_capture.capture DONE page=horizontal period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:01:28 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for current (2026-10-05..2026-10-11) / Home page
+2026-10-13 22:02:32 INFO    looker_capture.capture horizontal/current/Home page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 22:04:27 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:04:28 INFO    looker_capture.capture DONE page=horizontal period=current group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:04:38 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for current (2026-10-05..2026-10-11) / Airport page
+2026-10-13 22:05:41 INFO    looker_capture.capture horizontal/current/Airport page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 22:07:28 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:07:30 INFO    looker_capture.capture DONE page=horizontal period=current group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:07:40 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for current (2026-10-05..2026-10-11) / Route page
+2026-10-13 22:08:43 INFO    looker_capture.capture horizontal/current/Route page date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-13 22:10:46 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:10:48 INFO    looker_capture.capture DONE page=horizontal period=current group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:10:58 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-13 22:12:09 INFO    looker_capture.capture horizontal/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 22:13:43 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:13:45 INFO    looker_capture.capture DONE page=horizontal period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:13:55 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-06..2025-10-12) / Home page
+2026-10-13 22:15:07 INFO    looker_capture.capture horizontal/prior/Home page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 22:17:02 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:17:03 INFO    looker_capture.capture DONE page=horizontal period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:17:13 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-06..2025-10-12) / Airport page
+2026-10-13 22:18:24 INFO    looker_capture.capture horizontal/prior/Airport page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 22:20:23 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:20:25 INFO    looker_capture.capture DONE page=horizontal period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:20:35 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-06..2025-10-12) / Route page
+2026-10-13 22:21:47 INFO    looker_capture.capture horizontal/prior/Route page date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-13 22:23:48 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-13 22:23:50 INFO    looker_capture.capture DONE page=horizontal period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/data.json
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_start_search.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_start_search_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_search.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_search_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_purchase.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_purchase_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_select_item.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_select_item_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_add_to_cart.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_add_to_cart_ly.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_begin_checkout.py
+2026-10-13 22:24:00 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/data_begin_checkout_ly.py
+2026-10-13 22:24:00 WARNING looker_capture.export 287 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/UNMAPPED.md
+2026-10-13 22:24:00 INFO    looker_capture.workbook Running build.py in /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/looker_yoy_build_pubggw7e
+2026-10-13 22:24:02 INFO    looker_capture.workbook Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/Suntransfers_Funnel_YoY_5-11Oct26_vs_6-12Oct25.xlsx
+
+Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/Suntransfers_Funnel_YoY_5-11Oct26_vs_6-12Oct25.xlsx
+(287 tile(s) could not be attributed — see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/workbook/UNMAPPED.md before trusting every number)
+
+Capture finished.
+  failed: 16
+  ok: 61
+  quota_error: 3
+
+Combinations that did not verify cleanly:
+  start_search/current/All landing pages: quota_error — quota error 'Quota Error' on attempt 1; quota error 'Quota Error' on attempt 2; quota error 'Quota Error' on attempt 3; quota error 'Quota Error' on attempt 4; captured nothing: the page was still showing a quota error after retries
+  purchases/current/All landing pages: quota_error — quota error 'Quota Error' on attempt 1; quota error 'Quota Error' on attempt 2; quota error 'Quota Error' on attempt 3; quota error 'Quota Error' on attempt 4; captured nothing: the page was still showing a quota error after retries
+  add_to_cart/current/All landing pages: quota_error — quota error 'Quota Error' on attempt 1; quota error 'Quota Error' on attempt 2; quota error 'Quota Error' on attempt 3; quota error 'Quota Error' on attempt 4; captured nothing: the page was still showing a quota error after retries
+  kpis_by_route/current/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+
+Full detail in run.log and data.json.
+OK 22:24:02 -> /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/Suntransfers_Funnel_YoY_5-11Oct26_vs_6-12Oct25.xlsx
+=== 2026-10-13 22:24:02 exit 0
+=== 2026-10-14 10:26:57 starting
+    current 05/10/2026-11/10/2026   prior 06/10/2025-12/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11
+    SMOKE TEST: dry-run sessions/all
+2026-10-14 10:26:57 INFO    looker_capture Starting dry run: 1 page(s) x 2 period(s) x 1 group(s) = 2 combinations
+2026-10-14 10:26:57 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-14 10:27:00 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-14 10:27:00 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-05..2026-10-11) / All landing pages
+2026-10-14 10:28:08 WARNING looker_capture.waits sessions/current/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-14 10:29:34 WARNING looker_capture.waits sessions/current/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-14 10:31:46 WARNING looker_capture.waits sessions/current/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-14 10:35:27 ERROR   looker_capture.waits sessions/current/All landing pages/load still showing a quota error after 3 retries
+2026-10-14 10:35:27 WARNING looker_capture.capture Load of sessions for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-14 10:35:33 INFO    looker_capture.capture sessions/current/All landing pages date chip='5 Oct 2026 - 11 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-14 10:36:14 WARNING looker_capture.waits sessions/current/All landing pages/after-date hit a quota error; backing off 45s then retrying
+2026-10-14 10:37:40 WARNING looker_capture.waits sessions/current/All landing pages/after-date hit a quota error; backing off 90s then retrying
+2026-10-14 10:39:51 WARNING looker_capture.waits sessions/current/All landing pages/after-date hit a quota error; backing off 180s then retrying
+2026-10-14 10:43:32 ERROR   looker_capture.waits sessions/current/All landing pages/after-date still showing a quota error after 3 retries
+2026-10-14 10:44:25 WARNING looker_capture.waits sessions/current/All landing pages hit a quota error; backing off 45s then retrying
+2026-10-14 10:45:25 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-14 10:45:42 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-14 10:46:03 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-14 10:46:44 WARNING looker_capture.waits sessions/current/All landing pages hit a quota error; backing off 90s then retrying
+2026-10-14 10:48:30 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-14 10:48:47 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-14 10:49:08 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-14 10:49:49 WARNING looker_capture.waits sessions/current/All landing pages hit a quota error; backing off 180s then retrying
+2026-10-14 10:53:04 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control did not open its checklist); retrying in 2s
+2026-10-14 10:53:22 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control did not open its checklist); retrying in 5s
+2026-10-14 10:53:42 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control did not open its checklist
+2026-10-14 10:54:24 ERROR   looker_capture.waits sessions/current/All landing pages still showing a quota error after 3 retries
+2026-10-14 10:54:24 ERROR   looker_capture.capture sessions/current/All landing pages abandoned after 4 quota retries
+2026-10-14 10:54:24 INFO    looker_capture.export Keeping the earlier ok result for sessions/current/All landing pages; the re-run was quota_error
+2026-10-14 10:54:24 INFO    looker_capture.capture DONE page=sessions period=current group=All landing pages status=quota_error date_chip=OK filter_chip=FAIL quota_retries=4 tiles=0
+2026-10-14 10:54:34 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-06..2025-10-12) / All landing pages
+2026-10-14 10:55:44 INFO    looker_capture.capture sessions/prior/All landing pages date chip='6 Oct 2025 - 12 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-14 10:57:18 INFO    looker_capture.export Keeping the earlier ok result for sessions/current/All landing pages; the re-run was quota_error
+2026-10-14 10:57:18 INFO    looker_capture.capture DONE page=sessions period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=0
+2026-10-14 10:57:28 INFO    looker_capture.export Keeping the earlier ok result for sessions/current/All landing pages; the re-run was quota_error
+2026-10-14 10:57:28 INFO    looker_capture Merged into 80 existing combination(s) from a previous run
+2026-10-14 10:57:28 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-05_2026-10-11/data.json
+
+Dry run finished.
+  failed: 16
+  ok: 64
+
+Combinations that did not verify cleanly:
+  kpis_by_route/current/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/current/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  kpis_by_route/prior/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/current/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Home page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Airport page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  booking_funnel/prior/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+
+Full detail in run.log and data.json.
+=== smoke test exit 0 (no workbook expected)

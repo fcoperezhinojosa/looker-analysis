@@ -1,0 +1,53 @@
+<title>Fake Looker report</title>
+<style>
+  body { font-family: Roboto, Arial, sans-serif; margin: 0; background: #f1f3f4; }
+  .toolbar { padding: 12px; display: flex; gap: 12px; }
+  .chip { border: 1px solid #dadce0; background: #fff; border-radius: 4px;
+          padding: 6px 12px; font-size: 13px; cursor: pointer; }
+  .canvas { position: relative; margin: 24px; height: 1000px; background: #fff; }
+  /* Real Looker renders every component as a .lego-component-repeat div in the
+     main document — NOT in an iframe. The only iframe is reCAPTCHA's. */
+  .lego-component-repeat { position: absolute; padding: 8px; font-size: 13px; }
+</style>
+<div class="toolbar">
+  <div class="chip" role="button" aria-label="Date range control">1 Aug 2026 - 23 Aug 2026</div>
+  <div class="chip">
+    <div class="left-half" role="button" aria-label="Landing Page Group">Landing Page Group: Home pa... (1)</div>
+  </div>
+  <div aria-label="Filters applied to the report">Add filter Landing Page Group Home page (1)</div>
+</div>
+<div class="canvas">
+  <!-- Paid Search block: scorecards left, its two country tables right -->
+  <div class="lego-component-repeat" style="left:10px; top:20px; width:200px; height:60px;">
+    Total sessions - Paid Search traffic 63,399 -27.6%</div>
+  <div class="lego-component-repeat" style="left:10px; top:90px; width:200px; height:60px;">
+    Mobile Total sessions - Paid 35,208 -37.1%</div>
+  <div class="lego-component-repeat" style="left:10px; top:160px; width:200px; height:60px;">
+    Desktop Total sessions - Paid 27,414 -14.9%</div>
+  <div class="lego-component-repeat" style="left:240px; top:20px; width:300px; height:200px;">
+    Country Device category Sessions % Δ 1. United Kingdom desktop 6,044 -38.1% 2. Germany desktop 4,966 -20.5% 3. (not set) desktop 12 - 1 - 100 / 154</div>
+  <div class="lego-component-repeat" style="left:560px; top:20px; width:300px; height:200px;">
+    Country Device category Sessions % Δ 1. United Kingdom mobile 9,368 -52.9% 2. Germany mobile 5,132 -48.8% 1 - 100 / 159</div>
+
+  <!-- Organic block, further down -->
+  <div class="lego-component-repeat" style="left:10px; top:300px; width:200px; height:60px;">
+    Total sessions - Organic traffic 23,611 1.6%</div>
+  <div class="lego-component-repeat" style="left:10px; top:370px; width:200px; height:60px;">
+    Desktop Total sessions - Org 7,213 -14.6%</div>
+  <div class="lego-component-repeat" style="left:240px; top:300px; width:300px; height:200px;">
+    Country Device category Sessions % Δ 1. United Kingdom desktop 1,819 -11.7% 1 - 100 / 128</div>
+
+  <!-- Newsletter block: a real channel the workbook has no column for. Its
+       table must NOT drift onto Direct/Organic. -->
+  <div class="lego-component-repeat" style="left:10px; top:600px; width:200px; height:60px;">
+    Total sessions - Newsletter traffic 2,193 -38.9%</div>
+  <div class="lego-component-repeat" style="left:240px; top:600px; width:300px; height:200px;">
+    Country Device category Sessions % Δ 1. United Kingdom desktop 187 -49.7% 1 - 46 / 46</div>
+
+  <!-- A scorecard whose value Looker abbreviated -->
+  <div class="lego-component-repeat" style="left:600px; top:600px; width:200px; height:60px;">
+    Desktop Total sessions - Direct 12.3K 5.0%</div>
+
+  <iframe title="reCAPTCHA" style="position:absolute; left:0; top:960px; width:300px; height:60px; border:0;"
+    srcdoc="<body>protected by reCAPTCHA</body>"></iframe>
+</div>

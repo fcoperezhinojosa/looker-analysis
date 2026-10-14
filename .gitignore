@@ -1,0 +1,5 @@
+auth.json
+output/
+.venv/
+__pycache__/
+*.pyc

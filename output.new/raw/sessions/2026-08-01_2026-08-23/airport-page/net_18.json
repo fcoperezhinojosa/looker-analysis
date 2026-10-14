@@ -1,0 +1,439 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_dlp7tmum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_elp7tmum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_flp7tmum6d"
+         }
+        ],
+        "totalCount": 34,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Ireland",
+            "Belgium",
+            "Spain",
+            "Finland",
+            "Italy",
+            "France",
+            "Netherlands",
+            "Sweden",
+            "Denmark",
+            "Norway",
+            "Canada",
+            "Greece",
+            "Lithuania",
+            "Algeria",
+            "Austria",
+            "Portugal",
+            "Switzerland",
+            "Afghanistan",
+            "Albania",
+            "American Samoa",
+            "Armenia",
+            "Belarus",
+            "Faroe Islands",
+            "Hungary",
+            "Jersey",
+            "Malta",
+            "Mexico",
+            "Poland",
+            "Romania",
+            "Slovakia",
+            "Türkiye",
+            "United States"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            61,
+            49,
+            19,
+            12,
+            12,
+            10,
+            10,
+            9,
+            9,
+            7,
+            6,
+            4,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 34,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "bb28cd06-15254491-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=bb28cd06-15254491-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_dlp7tmum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_elp7tmum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_flp7tmum6d"
+         }
+        ],
+        "totalCount": 34,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Ireland",
+            "Belgium",
+            "Spain",
+            "Finland",
+            "Italy",
+            "France",
+            "Netherlands",
+            "Sweden",
+            "Denmark",
+            "Norway",
+            "Canada",
+            "Greece",
+            "Lithuania",
+            "Algeria",
+            "Austria",
+            "Portugal",
+            "Switzerland",
+            "Afghanistan",
+            "Albania",
+            "American Samoa",
+            "Armenia",
+            "Belarus",
+            "Faroe Islands",
+            "Hungary",
+            "Jersey",
+            "Malta",
+            "Mexico",
+            "Poland",
+            "Romania",
+            "Slovakia",
+            "Türkiye",
+            "United States"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [
+           14,
+           15,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           26,
+           27,
+           28,
+           29,
+           31
+          ],
+          "doubleColumn": {
+           "values": [
+            102,
+            83,
+            23,
+            2,
+            22,
+            4,
+            8,
+            6,
+            5,
+            8,
+            6,
+            5,
+            5,
+            5,
+            3,
+            1,
+            3,
+            1,
+            3,
+            1,
+            11
+           ]
+          }
+         }
+        ],
+        "size": 34,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "bb28cd06-15254491-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=bb28cd06-15254491-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787827491009",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 58,
+          "remaining": 1825442
+         },
+         "tokensPerHour": {
+          "consumed": 58,
+          "remaining": 366336
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 58,
+          "remaining": 106336
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 24
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787827491009",
+        "requestEndTimeMs": "1787827503157"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 110,
+          "remaining": 1823586
+         },
+         "tokensPerHour": {
+          "consumed": 110,
+          "remaining": 364480
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 110,
+          "remaining": 104480
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 49
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787827491009",
+        "requestEndTimeMs": "1787827511368"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787827490998",
+    "endRequestTimestampMilliseconds": "1787827511391"
+   }
+  ]
+ }
+}

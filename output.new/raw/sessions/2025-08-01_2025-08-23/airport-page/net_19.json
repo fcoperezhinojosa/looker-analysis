@@ -1,0 +1,571 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_buipz1a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_cuipz1a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_duipz1a65d"
+         }
+        ],
+        "totalCount": 56,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United States",
+            "United Kingdom",
+            "Germany",
+            "Netherlands",
+            "Ireland",
+            "Spain",
+            "Italy",
+            "Poland",
+            "Portugal",
+            "Sweden",
+            "France",
+            "Switzerland",
+            "Denmark",
+            "Finland",
+            "Austria",
+            "Israel",
+            "Belgium",
+            "Ghana",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Japan",
+            "China",
+            "Luxembourg",
+            "Norway",
+            "Ukraine",
+            "Georgia",
+            "Hungary",
+            "Czechia",
+            "Estonia",
+            "Greece",
+            "Jersey",
+            "Romania",
+            "Colombia",
+            "Mauritius",
+            "Moldova",
+            "Peru",
+            "Senegal",
+            "Singapore",
+            "Slovakia",
+            "South Africa",
+            "United Arab Emirates",
+            "Argentina",
+            "Bangladesh",
+            "Croatia",
+            "Dominican Republic",
+            "Egypt",
+            "Malta",
+            "Mexico",
+            "Morocco",
+            "New Zealand",
+            "Pakistan",
+            "Serbia",
+            "Slovenia",
+            "Thailand",
+            "Türkiye"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            423,
+            320,
+            142,
+            64,
+            57,
+            49,
+            32,
+            29,
+            25,
+            23,
+            16,
+            16,
+            13,
+            13,
+            11,
+            10,
+            8,
+            8,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            6,
+            5,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 56,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "54afdec3-227970-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=54afdec3-227970-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_buipz1a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_cuipz1a65d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_duipz1a65d"
+         }
+        ],
+        "totalCount": 56,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United States",
+            "United Kingdom",
+            "Germany",
+            "Netherlands",
+            "Ireland",
+            "Spain",
+            "Italy",
+            "Poland",
+            "Portugal",
+            "Sweden",
+            "France",
+            "Switzerland",
+            "Denmark",
+            "Finland",
+            "Austria",
+            "Israel",
+            "Belgium",
+            "Ghana",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Japan",
+            "China",
+            "Luxembourg",
+            "Norway",
+            "Ukraine",
+            "Georgia",
+            "Hungary",
+            "Czechia",
+            "Estonia",
+            "Greece",
+            "Jersey",
+            "Romania",
+            "Colombia",
+            "Mauritius",
+            "Moldova",
+            "Peru",
+            "Senegal",
+            "Singapore",
+            "Slovakia",
+            "South Africa",
+            "United Arab Emirates",
+            "Argentina",
+            "Bangladesh",
+            "Croatia",
+            "Dominican Republic",
+            "Egypt",
+            "Malta",
+            "Mexico",
+            "Morocco",
+            "New Zealand",
+            "Pakistan",
+            "Serbia",
+            "Slovenia",
+            "Thailand",
+            "Türkiye"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop",
+            "desktop"
+           ]
+          }
+         },
+         {
+          "nullIndex": [
+           21,
+           22,
+           26,
+           31,
+           33,
+           34,
+           35,
+           36,
+           37,
+           41,
+           46,
+           52,
+           54
+          ],
+          "doubleColumn": {
+           "values": [
+            104,
+            1162,
+            917,
+            199,
+            152,
+            275,
+            178,
+            96,
+            94,
+            187,
+            156,
+            140,
+            106,
+            45,
+            73,
+            4,
+            83,
+            2,
+            7,
+            9,
+            24,
+            7,
+            81,
+            5,
+            43,
+            26,
+            11,
+            22,
+            40,
+            1,
+            11,
+            5,
+            9,
+            1,
+            3,
+            1,
+            1,
+            4,
+            5,
+            1,
+            6,
+            6,
+            5
+           ]
+          }
+         }
+        ],
+        "size": 56,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "54afdec3-227970-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=54afdec3-227970-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787828194606",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 10,
+          "remaining": 1780898
+         },
+         "tokensPerHour": {
+          "consumed": 10,
+          "remaining": 321792
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 10,
+          "remaining": 61792
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 40
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787828194607",
+        "requestEndTimeMs": "1787828194782"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 64,
+          "remaining": 1779459
+         },
+         "tokensPerHour": {
+          "consumed": 64,
+          "remaining": 320353
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 64,
+          "remaining": 60353
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787828194605",
+        "requestEndTimeMs": "1787828204882"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787828194593",
+    "endRequestTimestampMilliseconds": "1787828204917"
+   }
+  ]
+ }
+}

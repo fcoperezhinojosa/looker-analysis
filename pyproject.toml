@@ -1,0 +1,20 @@
+[project]
+name = "looker-yoy-capture"
+version = "0.1.0"
+description = "Capture the Suntransfers B2C funnel report out of Looker Studio"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.44",
+    "click>=8.1",
+    "openpyxl>=3.1",
+]
+
+[project.scripts]
+looker-capture = "looker_capture.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["looker_capture"]

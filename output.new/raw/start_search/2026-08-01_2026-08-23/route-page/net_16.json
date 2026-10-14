@@ -1,0 +1,288 @@
+{
+ "url": "https://datastudio.google.com/u/0/batchedDataV2?appVersion=20260818_0003",
+ "response": {
+  "dataResponse": [
+   {
+    "dataSubset": [
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_hjns9sum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_ijns9sum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_jjns9sum6d"
+         }
+        ],
+        "totalCount": 9,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Netherlands",
+            "Ireland",
+            "Italy",
+            "Spain",
+            "Sweden",
+            "Belgium",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            14,
+            13,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            1
+           ]
+          }
+         }
+        ],
+        "size": 9,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "e5269553-13248350-20260827",
+      "isCompare": false,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=e5269553-13248350-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 0,
+       "role": "main"
+      }
+     },
+     {
+      "dataset": {
+       "tableDataset": {
+        "columnInfo": [
+         {
+          "ns": "t0",
+          "name": "qt_hjns9sum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_ijns9sum6d"
+         },
+         {
+          "ns": "t0",
+          "name": "qt_jjns9sum6d"
+         }
+        ],
+        "totalCount": 9,
+        "column": [
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "United Kingdom",
+            "Germany",
+            "Netherlands",
+            "Ireland",
+            "Italy",
+            "Spain",
+            "Sweden",
+            "Belgium",
+            "France"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "stringColumn": {
+           "values": [
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile",
+            "mobile"
+           ]
+          }
+         },
+         {
+          "nullIndex": [],
+          "doubleColumn": {
+           "values": [
+            28,
+            18,
+            4,
+            11,
+            6,
+            9,
+            1,
+            1,
+            5
+           ]
+          }
+         }
+        ],
+        "size": 9,
+        "metadata": {
+         "columnMetadata": [
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          },
+          {
+           "imageContainsDynamicData": false
+          }
+         ]
+        }
+       }
+      },
+      "requestId": "e5269553-13248350-20260827",
+      "isCompare": true,
+      "jobRequestUrl": [
+       "http://go/lego-backend-inspect-requests?var.request_id=e5269553-13248350-20260827"
+      ],
+      "isTotals": false,
+      "viewTags": {
+       "compareIndex": 1,
+       "role": "main"
+      }
+     }
+    ],
+    "dataTimestamp": "1787829029522",
+    "responseMetaSet": {
+     "responseMetas": [
+      {
+       "requestNamespace": {
+        "context": 0
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 73,
+          "remaining": 1771694
+         },
+         "tokensPerHour": {
+          "consumed": 73,
+          "remaining": 310237
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 73,
+          "remaining": 50237
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 46
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787829029521",
+        "requestEndTimeMs": "1787829049730"
+       }
+      },
+      {
+       "requestNamespace": {
+        "context": 1
+       },
+       "ga4ResponseMeta": {
+        "propertyQuota": {
+         "tokensPerDay": {
+          "consumed": 134,
+          "remaining": 1773332
+         },
+         "tokensPerHour": {
+          "consumed": 134,
+          "remaining": 311875
+         },
+         "tokensPerProjectPerHour": {
+          "consumed": 134,
+          "remaining": 51875
+         },
+         "concurrentRequests": {
+          "consumed": 0,
+          "remaining": 29
+         },
+         "serverErrorsPerProjectPerHour": {
+          "consumed": 0,
+          "remaining": 50
+         },
+         "potentiallyThresholdedRequestsPerHour": {
+          "consumed": 0,
+          "remaining": 120
+         }
+        }
+       },
+       "mappingId": {
+        "datasourceId": "652bf011-ef9c-4128-b821-6289f647e9b9"
+       },
+       "requestProcessingStats": {
+        "requestStartTimeMs": "1787829029521",
+        "requestEndTimeMs": "1787829047960"
+       }
+      }
+     ]
+    },
+    "startRequestTimestampMilliseconds": "1787829029512",
+    "endRequestTimestampMilliseconds": "1787829049745"
+   }
+  ]
+ }
+}
