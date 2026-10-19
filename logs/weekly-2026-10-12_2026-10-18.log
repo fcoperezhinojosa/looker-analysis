@@ -1,0 +1,641 @@
+=== 2026-10-16 12:31:03 starting (prior)
+    current 12/10/2026-18/10/2026   prior 13/10/2025-19/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18
+2026-10-16 12:31:03 INFO    looker_capture Starting dry run: 1 page(s) x 2 period(s) x 1 group(s) = 2 combinations
+Error: Something is already listening on port 9222. Close it, or pass a different --cdp-port.
+pre-flight failed (rc=1); full capture not started
+FAILED rc=1 - see /Users/francisco.perez/looker-yoy-capture/logs/weekly-2026-10-12_2026-10-18.log
+=== 2026-10-16 12:31:04 exit 1
+=== 2026-10-16 12:31:39 starting (prior)
+    current 12/10/2026-18/10/2026   prior 13/10/2025-19/10/2025
+    output  /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18
+2026-10-16 12:31:40 INFO    looker_capture Starting dry run: 1 page(s) x 2 period(s) x 1 group(s) = 2 combinations
+2026-10-16 12:31:40 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 12:31:41 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 12:31:41 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for current (2026-10-12..2026-10-18) / All landing pages
+2026-10-16 12:32:42 INFO    looker_capture.capture sessions/current/All landing pages date chip='12 Oct 2026 - 18 Oct 2026\narrow_drop_down' verified=True (matched)
+2026-10-16 12:34:28 INFO    looker_capture.capture DONE page=sessions period=current group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=0
+2026-10-16 12:34:38 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 12:35:49 INFO    looker_capture.capture sessions/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:37:23 INFO    looker_capture.capture DONE page=sessions period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=0
+2026-10-16 12:37:33 INFO    looker_capture.export Wrote /var/folders/dv/z1tbt8ys0zngndmlwdky87bc0000gn/T/tmp.oIc3Cy8H0p/data.json
+
+Dry run finished.
+  ok: 2
+
+Full detail in run.log and data.json.
+2026-10-16 12:37:34 INFO    looker_capture Starting capture: 8 page(s) x 1 period(s) x 4 group(s) = 32 combinations
+2026-10-16 12:37:34 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 12:37:35 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 12:37:35 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 12:38:45 INFO    looker_capture.capture sessions/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:40:19 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 12:40:20 INFO    looker_capture.capture DONE page=sessions period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 12:40:30 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 12:41:40 INFO    looker_capture.capture sessions/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:43:20 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 12:43:21 INFO    looker_capture.capture DONE page=sessions period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 12:43:31 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 12:44:41 INFO    looker_capture.capture sessions/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:46:19 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 12:46:21 INFO    looker_capture.capture DONE page=sessions period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 12:46:31 INFO    looker_capture.capture Navigating to Sessions (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_caonnz955d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 12:47:42 INFO    looker_capture.capture sessions/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:49:22 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 12:49:24 INFO    looker_capture.capture DONE page=sessions period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 12:49:34 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 12:50:29 WARNING looker_capture.waits start_search/prior/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-16 12:51:55 WARNING looker_capture.waits start_search/prior/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-16 12:54:07 WARNING looker_capture.waits start_search/prior/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-16 12:57:48 ERROR   looker_capture.waits start_search/prior/All landing pages/load still showing a quota error after 3 retries
+2026-10-16 12:57:48 WARNING looker_capture.capture Load of start_search for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-16 12:58:04 INFO    looker_capture.capture start_search/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 12:59:38 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 12:59:39 INFO    looker_capture.capture DONE page=start_search period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 12:59:49 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 13:01:02 INFO    looker_capture.capture start_search/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:02:46 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:02:48 INFO    looker_capture.capture DONE page=start_search period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:02:58 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 13:04:07 INFO    looker_capture.capture start_search/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:05:57 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:05:59 INFO    looker_capture.capture DONE page=start_search period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:06:09 INFO    looker_capture.capture Navigating to Start Search (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_kyj34z885d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 13:07:18 INFO    looker_capture.capture start_search/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:09:05 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:09:06 INFO    looker_capture.capture DONE page=start_search period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:09:16 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 13:10:15 WARNING looker_capture.waits searches/prior/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-16 13:11:41 WARNING looker_capture.waits searches/prior/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-16 13:13:52 WARNING looker_capture.waits searches/prior/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-16 13:17:33 ERROR   looker_capture.waits searches/prior/All landing pages/load still showing a quota error after 3 retries
+2026-10-16 13:17:33 WARNING looker_capture.capture Load of searches for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-16 13:17:49 INFO    looker_capture.capture searches/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:19:23 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:19:25 INFO    looker_capture.capture DONE page=searches period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:19:35 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 13:20:44 INFO    looker_capture.capture searches/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:22:34 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:22:36 INFO    looker_capture.capture DONE page=searches period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:22:46 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 13:23:56 INFO    looker_capture.capture searches/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:25:40 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:25:41 INFO    looker_capture.capture DONE page=searches period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:25:51 INFO    looker_capture.capture Navigating to Searches (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_is11jf365d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 13:27:01 INFO    looker_capture.capture searches/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:28:45 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:28:46 INFO    looker_capture.capture DONE page=searches period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:28:56 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 13:30:19 INFO    looker_capture.capture purchases/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:31:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:31:55 INFO    looker_capture.capture DONE page=purchases period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:32:05 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 13:33:13 INFO    looker_capture.capture purchases/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:34:57 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-16 13:34:59 INFO    looker_capture.capture DONE page=purchases period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:35:09 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 13:36:26 INFO    looker_capture.capture purchases/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:38:10 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-16 13:38:11 INFO    looker_capture.capture DONE page=purchases period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:38:21 INFO    looker_capture.capture Navigating to Purchases (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_2e6ltn365d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 13:39:32 INFO    looker_capture.capture purchases/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:41:16 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 0 table(s)
+2026-10-16 13:41:17 INFO    looker_capture.capture DONE page=purchases period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:41:27 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 13:42:40 WARNING looker_capture.waits select_item/prior/All landing pages/load hit a quota error; backing off 45s then retrying
+2026-10-16 13:44:06 WARNING looker_capture.waits select_item/prior/All landing pages/load hit a quota error; backing off 90s then retrying
+2026-10-16 13:46:17 WARNING looker_capture.waits select_item/prior/All landing pages/load hit a quota error; backing off 180s then retrying
+2026-10-16 13:49:58 ERROR   looker_capture.waits select_item/prior/All landing pages/load still showing a quota error after 3 retries
+2026-10-16 13:49:58 WARNING looker_capture.capture Load of select_item for All landing pages never came clean: ["quota error 'Quota Error' on attempt 1", "quota error 'Quota Error' on attempt 2", "quota error 'Quota Error' on attempt 3", "quota error 'Quota Error' on attempt 4"]
+2026-10-16 13:50:15 INFO    looker_capture.capture select_item/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:51:49 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:51:50 INFO    looker_capture.capture DONE page=select_item period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:52:00 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 13:53:09 INFO    looker_capture.capture select_item/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:54:53 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:54:54 INFO    looker_capture.capture DONE page=select_item period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:55:04 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 13:56:14 INFO    looker_capture.capture select_item/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 13:57:58 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 13:57:59 INFO    looker_capture.capture DONE page=select_item period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 13:58:09 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 13:59:05 WARNING looker_capture.selectors date range control (2025-10-13..2025-10-19) did not verify on attempt 1/3 (date range control not found on the page); retrying in 2s
+2026-10-16 13:59:07 WARNING looker_capture.selectors date range control (2025-10-13..2025-10-19) did not verify on attempt 2/3 (date range control not found on the page); retrying in 5s
+2026-10-16 13:59:12 ERROR   looker_capture.selectors date range control (2025-10-13..2025-10-19) failed after 3 attempts: date range control not found on the page
+2026-10-16 13:59:12 INFO    looker_capture.capture select_item/prior/Route page date chip='' verified=False (date range control not found on the page)
+2026-10-16 13:59:53 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-16 13:59:55 WARNING looker_capture.selectors landing page group control (Route page) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-16 14:00:00 ERROR   looker_capture.selectors landing page group control (Route page) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-16 14:00:00 INFO    looker_capture.capture DONE page=select_item period=prior group=Route page status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-16 14:00:10 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:01:06 WARNING looker_capture.selectors date range control (2025-10-13..2025-10-19) did not verify on attempt 1/3 (date range control not found on the page); retrying in 2s
+2026-10-16 14:03:11 WARNING looker_capture.selectors date range control (2025-10-13..2025-10-19) did not verify on attempt 2/3 (date range control not found on the page); retrying in 5s
+2026-10-16 14:03:16 ERROR   looker_capture.selectors date range control (2025-10-13..2025-10-19) failed after 3 attempts: date range control not found on the page
+2026-10-16 14:03:16 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='' verified=False (date range control not found on the page)
+2026-10-16 14:03:57 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 1/3 (Landing Page Group control not found on the page); retrying in 2s
+2026-10-16 14:03:59 WARNING looker_capture.selectors landing page group control (All landing pages) did not verify on attempt 2/3 (Landing Page Group control not found on the page); retrying in 5s
+2026-10-16 14:04:04 ERROR   looker_capture.selectors landing page group control (All landing pages) failed after 3 attempts: Landing Page Group control not found on the page
+2026-10-16 14:04:04 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=failed date_chip=FAIL filter_chip=FAIL quota_retries=0 tiles=0
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:04:14 ERROR   looker_capture.capture Navigation to https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit failed: Page.goto: Target page, context or browser has been closed
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:04:14 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:04:14 WARNING looker_capture.export 113 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 13
+  ok: 19
+
+Combinations that did not verify cleanly:
+  select_item/prior/Route page: failed — landing page group control never verified: Landing Page Group control not found on the page
+  add_to_cart/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  add_to_cart/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+=== 2026-10-16 14:04:15 retrying prior: select_item route;add_to_cart all;add_to_cart home;add_to_cart airport;add_to_cart route;begin_checkout all;begin_checkout home;begin_checkout airport;begin_checkout route;horizontal all;horizontal home;horizontal airport;horizontal route;
+2026-10-16 14:04:15 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:04:15 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:04:16 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:04:16 INFO    looker_capture.capture Navigating to Select item (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_fc1gb3sl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:05:27 INFO    looker_capture.capture select_item/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:07:13 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 7 table(s)
+2026-10-16 14:07:14 INFO    looker_capture.capture DONE page=select_item period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:07:24 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:07:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:07:24 WARNING looker_capture.export 118 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 12
+  ok: 20
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/All landing pages: failed — landing page group control never verified: Landing Page Group control not found on the page
+  add_to_cart/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:07:25 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:07:25 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:07:25 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:07:26 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:08:38 INFO    looker_capture.capture add_to_cart/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:10:12 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:10:13 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:10:24 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:10:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:10:24 WARNING looker_capture.export 123 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 11
+  ok: 21
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:10:24 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:10:24 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:10:24 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:10:24 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:11:37 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:13:20 WARNING looker_capture.extract Could not enumerate report components: Page.evaluate: Target page, context or browser has been closed
+2026-10-16 14:13:20 WARNING looker_capture.capture Screenshots failed for /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/add_to_cart/2025-10-13_2025-10-19/home-page: Page.screenshot: Target page, context or browser has been closed
+2026-10-16 14:13:20 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=partial date_chip=FAIL filter_chip=OK quota_retries=0 tiles=0
+2026-10-16 14:13:31 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:13:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:13:31 WARNING looker_capture.export 123 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 10
+  ok: 21
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  add_to_cart/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  add_to_cart/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:13:31 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:13:31 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:13:31 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:13:31 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:14:44 INFO    looker_capture.capture add_to_cart/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:16:32 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:16:33 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:16:43 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:16:43 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:16:43 WARNING looker_capture.export 128 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 9
+  ok: 22
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  add_to_cart/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:16:43 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:16:44 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:16:44 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:16:44 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:18:00 INFO    looker_capture.capture add_to_cart/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:19:50 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 7 table(s)
+2026-10-16 14:19:51 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:20:02 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:20:02 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:20:02 WARNING looker_capture.export 133 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 8
+  ok: 23
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  begin_checkout/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:20:02 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:20:02 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:20:02 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:20:02 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:21:11 INFO    looker_capture.capture begin_checkout/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:22:47 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:22:49 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:22:59 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:22:59 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:22:59 WARNING looker_capture.export 138 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 7
+  ok: 24
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  begin_checkout/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:22:59 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:22:59 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:22:59 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:23:00 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:24:17 INFO    looker_capture.capture begin_checkout/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:25:55 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:25:56 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:26:06 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:26:06 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:26:06 WARNING looker_capture.export 143 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 6
+  ok: 25
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  begin_checkout/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:26:07 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:26:07 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:26:07 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:26:07 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:27:22 INFO    looker_capture.capture begin_checkout/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:29:20 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:29:21 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:29:31 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:29:31 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:29:31 WARNING looker_capture.export 148 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 5
+  ok: 26
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  begin_checkout/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:29:31 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:29:32 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:29:32 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:29:32 INFO    looker_capture.capture Navigating to Begin checkout (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_e2hegntl6d/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:30:43 INFO    looker_capture.capture begin_checkout/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:32:29 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 7 table(s)
+2026-10-16 14:32:31 INFO    looker_capture.capture DONE page=begin_checkout period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:32:41 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:32:41 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:32:41 WARNING looker_capture.export 153 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 4
+  ok: 27
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  horizontal/prior/All landing pages: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:32:41 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:32:41 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:32:42 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:32:42 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / All landing pages
+2026-10-16 14:33:50 INFO    looker_capture.capture horizontal/prior/All landing pages date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:35:24 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-16 14:35:25 INFO    looker_capture.capture DONE page=horizontal period=prior group=All landing pages status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-16 14:35:36 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:35:36 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:35:36 WARNING looker_capture.export 153 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 3
+  ok: 28
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  horizontal/prior/Home page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:35:36 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:35:36 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:35:36 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:35:36 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:37:01 INFO    looker_capture.capture horizontal/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:39:12 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-16 14:39:14 INFO    looker_capture.capture DONE page=horizontal period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-16 14:39:24 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:39:24 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:39:24 WARNING looker_capture.export 153 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 2
+  ok: 29
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  horizontal/prior/Airport page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:39:24 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:39:24 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:39:25 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:39:25 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Airport page
+2026-10-16 14:40:37 INFO    looker_capture.capture horizontal/prior/Airport page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:42:39 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-16 14:42:41 INFO    looker_capture.capture DONE page=horizontal period=prior group=Airport page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-16 14:42:51 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:42:51 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:42:51 WARNING looker_capture.export 153 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  failed: 1
+  ok: 30
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+  horizontal/prior/Route page: failed — navigation failed: Page.goto: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+2026-10-16 14:42:51 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:42:51 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:42:52 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:42:52 INFO    looker_capture.capture Navigating to Horizontal funnel (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oyk5likyjd/edit) for prior (2025-10-13..2025-10-19) / Route page
+2026-10-16 14:44:15 INFO    looker_capture.capture horizontal/prior/Route page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:46:22 INFO    looker_capture.extract Extracted 30 component(s): 8 scorecard(s), 0 table(s)
+2026-10-16 14:46:23 INFO    looker_capture.capture DONE page=horizontal period=prior group=Route page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=30
+2026-10-16 14:46:34 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:46:34 INFO    looker_capture.export Wrote /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:46:34 WARNING looker_capture.export 153 tiles could not be attributed; see /Users/francisco.perez/looker-yoy-capture/output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  ok: 31
+  partial: 1
+
+Combinations that did not verify cleanly:
+  add_to_cart/prior/Home page: partial — screenshots failed: Page.screenshot: Target page, context or browser has been closed
+
+Full detail in run.log and data.json.
+PRIOR INCOMPLETE 14:46:34 - Tuesday will re-capture: add_to_cart home;
+=== 2026-10-16 14:46:34 exit 2
+2026-10-16 14:46:48 INFO    looker_capture Starting capture: 1 page(s) x 1 period(s) x 1 group(s) = 1 combinations
+2026-10-16 14:46:48 INFO    looker_capture.auth Launching Chrome on profile /Users/francisco.perez/.looker-yoy-capture/chrome-profile (debug port 9222)
+2026-10-16 14:46:48 INFO    looker_capture.auth Attached to Chrome on the signed-in profile at /Users/francisco.perez/.looker-yoy-capture/chrome-profile
+2026-10-16 14:46:48 INFO    looker_capture.capture Navigating to Add to cart (https://lookerstudio.google.com/u/0/reporting/fb949fdd-dd2f-4cdb-95db-16d82bd003e9/page/p_oxemlbtl6d/edit) for prior (2025-10-13..2025-10-19) / Home page
+2026-10-16 14:48:00 INFO    looker_capture.capture add_to_cart/prior/Home page date chip='13 Oct 2025 - 19 Oct 2025\narrow_drop_down' verified=True (matched)
+2026-10-16 14:49:36 INFO    looker_capture.extract Extracted 20 component(s): 12 scorecard(s), 8 table(s)
+2026-10-16 14:49:37 INFO    looker_capture.capture DONE page=add_to_cart period=prior group=Home page status=ok date_chip=OK filter_chip=OK quota_retries=0 tiles=20
+2026-10-16 14:49:47 INFO    looker_capture Merged into 32 existing combination(s) from a previous run
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/data.json
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_start_search_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_search_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_purchase_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_select_item_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_add_to_cart_ly.py
+2026-10-16 14:49:47 INFO    looker_capture.export Wrote output/weekly/2026-10-12_2026-10-18/workbook/data_begin_checkout_ly.py
+2026-10-16 14:49:47 WARNING looker_capture.export 158 tiles could not be attributed; see output/weekly/2026-10-12_2026-10-18/workbook/UNMAPPED.md
+
+Capture finished.
+  ok: 32
+
+Full detail in run.log and data.json.
+PRIOR OK 14:49:51 - add_to_cart home re-captured by hand; period_gaps.py reports no gaps for 13/10/2025-19/10/2025

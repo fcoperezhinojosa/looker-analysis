@@ -8,15 +8,35 @@
 #
 # Each week writes to its own output dir. The capture merges into an existing
 # data.json by design, so sharing one dir would silently mix two periods.
+#
+# Modes (first argument):
+#   full     (default) both periods of the last completed week.
+#   prior    Friday: only the prior year of the week that contains today. Last
+#            year's data cannot change, so capturing it ahead of time halves
+#            the Tuesday run. No workbook or gate: there is no current yet.
+#   current  Tuesday: only the current period of the last completed week, plus
+#            whatever prior combinations the Friday run did not leave ok, then
+#            the workbook and the gate as in full mode.
+# prior and current land in the same per-week dir, so the merge joins them.
 
 set -u
+MODE="${1:-full}"
+case "$MODE" in
+  full|prior|current) ;;
+  *) echo "usage: weekly-capture.sh [full|prior|current]" >&2; exit 64 ;;
+esac
 ROOT="$HOME/looker-yoy-capture"
 PY="$ROOT/.venv/bin/python"
 
-read -r CUR_START CUR_END PRI_START PRI_END OUT_TAG <<<"$("$PY" - <<'PYEOF'
+read -r CUR_START CUR_END PRI_START PRI_END OUT_TAG <<<"$(MODE="$MODE" "$PY" - <<'PYEOF'
+import os
 from datetime import date, timedelta
-t = date.today()
-sunday = t - timedelta(days=(t.weekday() + 1) % 7)   # last completed Sunday
+# WEEKLY_TODAY=yyyy-mm-dd pretends to run on another day, for testing the dates.
+t = date.fromisoformat(os.environ["WEEKLY_TODAY"]) if os.environ.get("WEEKLY_TODAY") else date.today()
+if os.environ["MODE"] == "prior":
+    sunday = t + timedelta(days=6 - t.weekday())     # Sunday of this week
+else:
+    sunday = t - timedelta(days=(t.weekday() + 1) % 7)   # last completed Sunday
 cs, ce = sunday - timedelta(days=6), sunday
 ps, pe = cs - timedelta(days=364), ce - timedelta(days=364)
 f = lambda d: d.strftime("%d/%m/%Y")
@@ -51,7 +71,7 @@ echo $$ >"$LOCK/pid"
 trap 'rm -rf "$LOCK"' EXIT INT TERM
 
 {
-  echo "=== $(date '+%Y-%m-%d %H:%M:%S') starting"
+  echo "=== $(date '+%Y-%m-%d %H:%M:%S') starting ($MODE)"
   echo "    current $CUR_START-$CUR_END   prior $PRI_START-$PRI_END"
   echo "    output  $OUT"
 } >>"$LOG"
@@ -85,7 +105,56 @@ RC=$?
 rm -rf "$PRE"
 [[ $RC -ne 0 ]] && echo "pre-flight failed (rc=$RC); full capture not started" >>"$LOG"
 
-if [[ $RC -eq 0 ]]; then
+prior_gaps() { "$PY" "$ROOT/scripts/period_gaps.py" "$OUT/data.json" prior "$PAGES" 2>>"$LOG"; }
+
+if [[ "$MODE" == "prior" ]]; then
+  # Capture, then ONE pass over whatever is still not ok, then stop.
+  if [[ $RC -eq 0 ]]; then
+    capture --pages "$PAGES" --periods prior --no-build-xlsx
+    RC=$?
+    GAPS=$(prior_gaps)
+    if [[ $RC -eq 0 && -n "$GAPS" ]]; then
+      echo "=== $(date '+%Y-%m-%d %H:%M:%S') retrying prior: $(echo "$GAPS" | tr '\n' ';')" >>"$LOG"
+      while read -r RPAGE RGROUP; do
+        [[ -z "$RPAGE" ]] && continue
+        capture --pages "$RPAGE" --landing-groups "$RGROUP" --periods prior --no-build-xlsx
+      done <<<"$GAPS"
+      GAPS=$(prior_gaps)
+    fi
+  fi
+  if [[ $RC -ne 0 ]]; then
+    if /usr/bin/grep -qi -e 'expired' -e 'sign.\?in' -e 'not authenticated' "$LOG"; then
+      echo "FAILED rc=$RC - looks like the Google session expired; run: $PY -m looker_capture --login" >>"$LOG"
+      notify "Prior-year capture: session expired. Run --login before Tuesday."
+    else
+      echo "FAILED rc=$RC - see $LOG" >>"$LOG"
+      notify "Prior-year capture failed (rc=$RC). Tuesday will capture it instead."
+    fi
+  elif [[ -n "$GAPS" ]]; then
+    echo "PRIOR INCOMPLETE $(date '+%H:%M:%S') - Tuesday will re-capture: $(echo "$GAPS" | tr '\n' ';')" >>"$LOG"
+    notify "Prior year captured with gaps; Tuesday will fill them in."
+    RC=2
+  else
+    echo "PRIOR OK $(date '+%H:%M:%S') - $PRI_START-$PRI_END ready in $OUT" >>"$LOG"
+    notify "Prior year $PRI_START-$PRI_END captured."
+  fi
+  echo "=== $(date '+%Y-%m-%d %H:%M:%S') exit $RC" >>"$LOG"
+  exit $RC
+fi
+
+if [[ $RC -eq 0 && "$MODE" == "current" ]]; then
+  capture --pages "$PAGES" --periods current
+  RC=$?
+  # Fill in whatever the Friday run did not leave ok (all of it if it never ran).
+  GAPS=$(prior_gaps)
+  if [[ $RC -eq 0 && -n "$GAPS" ]]; then
+    echo "=== $(date '+%Y-%m-%d %H:%M:%S') prior not ready, capturing: $(echo "$GAPS" | tr '\n' ';')" >>"$LOG"
+    while read -r RPAGE RGROUP; do
+      [[ -z "$RPAGE" ]] && continue
+      capture --pages "$RPAGE" --landing-groups "$RGROUP" --periods prior
+    done <<<"$GAPS"
+  fi
+elif [[ $RC -eq 0 ]]; then
   capture --pages "$PAGES"
   RC=$?
 fi

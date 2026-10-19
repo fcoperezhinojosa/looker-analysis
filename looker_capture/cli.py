@@ -57,6 +57,17 @@ def setup_logging(output_dir: Path, verbose: bool) -> None:
 @click.option("--current-range", "current_range", default="", help="dd/mm/yyyy-dd/mm/yyyy")
 @click.option("--prior-range", "prior_range", default="", help="dd/mm/yyyy-dd/mm/yyyy")
 @click.option(
+    "--periods",
+    "periods_arg",
+    default="current,prior",
+    show_default=True,
+    help=(
+        "Which periods to capture. Both ranges are still required, because the "
+        "workbook always pairs current with prior; capturing only one lets the "
+        "prior year (which cannot change) be captured ahead of time and merged in."
+    ),
+)
+@click.option(
     "--pages",
     "pages_arg",
     default=None,
@@ -167,6 +178,7 @@ def setup_logging(output_dir: Path, verbose: bool) -> None:
 def main(  # noqa: PLR0913 - a CLI is allowed its knobs
     current_range: str,
     prior_range: str,
+    periods_arg: str,
     pages_arg: str | None,
     groups_arg: str | None,
     headless: bool,
@@ -215,12 +227,20 @@ def main(  # noqa: PLR0913 - a CLI is allowed its knobs
         raise click.UsageError("--current-range and --prior-range are both required")
 
     try:
-        periods = [
+        all_periods = [
             parse_cli_range("current", current_range),
             parse_cli_range("prior", prior_range),
         ]
     except ValueError as exc:
         raise click.UsageError(str(exc)) from exc
+
+    wanted = [p.strip() for p in periods_arg.split(",") if p.strip()]
+    unknown_periods = [p for p in wanted if p not in ("current", "prior")]
+    if unknown_periods or not wanted:
+        raise click.UsageError(
+            f"--periods takes current, prior or both; got {periods_arg!r}"
+        )
+    periods = [p for p in all_periods if p.name in wanted]
 
     slugs = [s.strip() for s in pages_arg.split(",")] if pages_arg else DEFAULT_PAGES
     unknown = [s for s in slugs if s not in PAGES]
@@ -269,7 +289,8 @@ def main(  # noqa: PLR0913 - a CLI is allowed its knobs
         "report_id": REPORT_ID,
         "dry_run": dry_run,
         "periods": {
-            p.name: {"start": p.start.isoformat(), "end": p.end.isoformat()} for p in periods
+            p.name: {"start": p.start.isoformat(), "end": p.end.isoformat()}
+            for p in all_periods
         },
         "landing_groups": groups,
         "settle_seconds": settle_seconds,
@@ -314,7 +335,8 @@ def main(  # noqa: PLR0913 - a CLI is allowed its knobs
         "report_id": REPORT_ID,
         "dry_run": dry_run,
         "periods": {
-            p.name: {"start": p.start.isoformat(), "end": p.end.isoformat()} for p in periods
+            p.name: {"start": p.start.isoformat(), "end": p.end.isoformat()}
+            for p in all_periods
         },
         "landing_groups": groups,
         "settle_seconds": settle_seconds,
@@ -323,7 +345,7 @@ def main(  # noqa: PLR0913 - a CLI is allowed its knobs
 
     xlsx_path: Path | None = None
     if emit_data_files and not dry_run:
-        by_name: dict[str, Period] = {p.name: p for p in periods}
+        by_name: dict[str, Period] = {p.name: p for p in all_periods}
         unmapped = export.write_workbook_files(
             results, by_name, output_dir / "workbook", stamp, REPORT_ID, mapping
         )
